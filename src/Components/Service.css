@@ -1,3 +1,9 @@
+#home {
+  padding: 80px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
 .cards {
   display: flex;
   flex-wrap: wrap;

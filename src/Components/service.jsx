@@ -2,7 +2,7 @@ import styles from "../style";
 import "./Service.css";
 import "./logo.css";
 import { ui, rectangle, arrow } from "../assets";
-import React, { useState, useEffect, useRef } from "react";
+import { useState, useEffect, useRef } from "react";
 import { motion, useInView, useAnimation } from "framer-motion";
 import { GlowCapture, Glow } from "@codaworks/react-glow";
 const Service = () => {
@@ -58,8 +58,9 @@ const Service = () => {
               </div>
             </Glow>
           </GlowCapture>
+          
 
-          <div className="frame mr-5 mb-5">
+          {/* <div className="frame mr-5 mb-5">
             <div className="overlap-group ">
               <div className="div" />
               <div className="text-wrapper">Web Development</div>
@@ -69,7 +70,7 @@ const Service = () => {
               </p>
               <img className="development" alt="Development" src={ui} />
             </div>
-          </div>
+          </div> */}
         </div>
         <div
           className={`flex ${styles.flexStart} flex-row flex-wrap justify-between mt-2 w-[100%]`}
