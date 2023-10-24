@@ -1,13 +1,7 @@
 // Import necessary styles and components
 import styles from "./style";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import {
-  LandingPage,
-  Footer,
-  Navbar,
-  Team,
-  Contact
-} from "./Components";
+import { LandingPage, Footer, Navbar, Team, Contact } from "./Components";
 
 const App = () => {
   return (
@@ -35,6 +29,6 @@ const App = () => {
       </div>
     </div>
   );
-}
+};
 
 export default App;
