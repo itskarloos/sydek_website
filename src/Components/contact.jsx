@@ -45,7 +45,7 @@ const contact = () => {
                       className="h-[15px] w-[15px] mt-[4px] mr-[5px]"
                       src={mail}
                     ></img>
-                    <p className="image-paragraph"> sydek.io@gmail.com </p>
+                    <p className="image-paragraph"> info@sydek.io </p>
                   </div>
 
                   <div className="flex flex-row m-1">

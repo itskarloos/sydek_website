@@ -1,5 +1,4 @@
 import {  facebook, instagram, linkedin, twitter,   } from "../assets";
-import { Team } from "../Components";
 export const navLinks = [
   {
     id: "home",

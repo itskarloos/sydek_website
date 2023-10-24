@@ -47,7 +47,7 @@ const Team = () => {
           </div>
           <div className="team-content">
             <h2>Michael Seyoum</h2>
-            <h3>CEO & Founder</h3>
+            <h3>Creative Director</h3>
             <p>Development and creative director at creative studio</p>
             <div className="team-skill">
               <div className="skill-name">
