@@ -4,6 +4,7 @@ import "./logo.css";
 import { ui, rectangle, arrow } from "../assets";
 import React, { useState, useEffect, useRef } from "react";
 import { motion, useInView, useAnimation } from "framer-motion";
+import { GlowCapture, Glow } from "@codaworks/react-glow";
 const Service = () => {
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
 
@@ -42,45 +43,20 @@ const Service = () => {
         <div
           className={`flex ${styles.flexStart} flex-row flex-wrap justify-between mt-5 w-[100%]`}
         >
-          <div className="frame mr-5 mb-5">
-            <div className="overlap-group ">
-              <div className="div" />
-              <div className="text-wrapper">Web Development</div>
-              <p className="p">
-                Our team builds great websites by combining creativity,
-                technology, and user experience.
-              </p>
-              <img className="development" alt="Development" src={ui} />
-            </div>
-          </div>
+          <GlowCapture>
+            <div className="CardContainer">
+              <div className="CardImage">
+                <img className="development" alt="Development" src={ui} />
+              </div>
 
-          <div className="frame  mr-5 mb-5">
-            <div className="overlap-group ">
-              <img className="rectangle" alt="Rectangle" src={rectangle} />
-              <div className="div" />
-              <div className="text-wrapper">Web Development</div>
-              <p className="p">
-                Our team builds great websites by combining creativity,
-                technology, and user experience.
-              </p>
-              <img className="development" alt="Development" src={ui} />
+              <p className="CardHeading">Web Development</p>
+
+              <p className="CardParagraph"></p>
             </div>
-          </div>
+          </GlowCapture>
+
           <div className="frame mr-5 mb-5">
             <div className="overlap-group ">
-              <img className="rectangle" alt="Rectangle" src={rectangle} />
-              <div className="div" />
-              <div className="text-wrapper">Web Development</div>
-              <p className="p">
-                Our team builds great websites by combining creativity,
-                technology, and user experience.
-              </p>
-              <img className="development" alt="Development" src={ui} />
-            </div>
-          </div>
-          <div className="frame mr-5 mb-5">
-            <div className="overlap-group ">
-              <img className="rectangle" alt="Rectangle" src={rectangle} />
               <div className="div" />
               <div className="text-wrapper">Web Development</div>
               <p className="p">
