@@ -1,5 +1,4 @@
 import {  facebook, instagram, linkedin, twitter,   } from "../assets";
-import { Teams } from "../Components";
 export const navLinks = [
   {
     id: "home",
@@ -18,7 +17,7 @@ export const navLinks = [
     title: "Contact",
   },
   {
-    id: "./teamspage",
+    id: "./Team",
     title: "Team",
   },
 ];
@@ -63,7 +62,7 @@ export const footerLinks = [
       },
       {
         name: "Teams",
-        link: "../Components/teamspage.jsx",
+        link: "../Components/Team.jsx",
       },
       
     ],

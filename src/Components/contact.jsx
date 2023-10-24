@@ -1,13 +1,9 @@
-import React from "react";
 import ContactForm from "./ContactForm";
 import {
-  facebook,
-  image,
   location,
   logo,
   mail,
   phone,
-  twitter,
 } from "../assets";
 
 import styles from "../style";
@@ -26,7 +22,7 @@ const contact = () => {
             </h1>
           </div>
           <p className={`${styles.paragraph} font-thin`}>
-            We'd love to hear from you. Contact us today.
+            We&lsquod love to hear from you. Contact us today.
           </p>
         </div>
 
@@ -49,7 +45,7 @@ const contact = () => {
                       className="h-[15px] w-[15px] mt-[4px] mr-[5px]"
                       src={mail}
                     ></img>
-                    <p className="image-paragraph"> sydek.io@gmail.com </p>
+                    <p className="image-paragraph"> info@sydek.io </p>
                   </div>
 
                   <div className="flex flex-row m-1">
