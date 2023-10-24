@@ -24,5 +24,5 @@ module.exports = {
       xl: "1700px",
     },
   },
-  plugins: [],
+  plugins: [require("@codaworks/react-glow/tailwind")],
 };

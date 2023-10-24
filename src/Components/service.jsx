@@ -44,15 +44,19 @@ const Service = () => {
           className={`flex ${styles.flexStart} flex-row flex-wrap justify-between mt-5 w-[100%]`}
         >
           <GlowCapture>
-            <div className="CardContainer">
-              <div className="CardImage">
-                <img className="development" alt="Development" src={ui} />
+            <Glow color="hsl(239, 99%, 50%)">
+              <div className="CardContainer glow:bg-opacity-30 glow:bg-blue-700">
+                <div className="CardImage">
+                  <img className="development" alt="Development" src={ui} />
+                </div>
+
+                <p className="CardHeading">Web Development</p>
+
+                <p className="CardParagraph">
+                  Our team will create a seemless user experience design for you
+                </p>
               </div>
-
-              <p className="CardHeading">Web Development</p>
-
-              <p className="CardParagraph"></p>
-            </div>
+            </Glow>
           </GlowCapture>
 
           <div className="frame mr-5 mb-5">
