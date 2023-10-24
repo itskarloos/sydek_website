@@ -1,6 +1,7 @@
 import { image } from "../assets";
 import styles from "../style";
 import "./Team.css";
+
 const Team = () => {
   return (
     <section id="home" className={` flex-col ${styles.paddingY}`}>
