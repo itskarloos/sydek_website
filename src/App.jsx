@@ -23,7 +23,7 @@ const App = () => {
       <Router>
         <Routes>
           {/* Define routes using Route components */}
-          <Route path="/" element={<LandingPage />} />
+          <Route path="/Home" exact element={<LandingPage />} />
           <Route path="/Contact" element={<Contact />} />
           <Route path="/Team" element={<Team />} />
         </Routes>
