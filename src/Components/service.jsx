@@ -1,9 +1,24 @@
 import styles from "../style";
+import "./Service.css";
 import "./logo.css";
 import { ui, rectangle, arrow } from "../assets";
-import React, { useEffect, useRef } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { motion, useInView, useAnimation } from "framer-motion";
 const Service = () => {
+  const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
+
+  useEffect(() => {
+    const handleMouseMove = (e) => {
+      const newMousePosition = { x: e.clientX, y: e.clientY };
+      setMousePosition(newMousePosition);
+    };
+
+    document.addEventListener("mousemove", handleMouseMove);
+
+    return () => {
+      document.removeEventListener("mousemove", handleMouseMove);
+    };
+  }, []);
   return (
     <section
       id="home"
@@ -29,7 +44,6 @@ const Service = () => {
         >
           <div className="frame mr-5 mb-5">
             <div className="overlap-group ">
-              <img className="rectangle" alt="Rectangle" src={rectangle} />
               <div className="div" />
               <div className="text-wrapper">Web Development</div>
               <p className="p">
