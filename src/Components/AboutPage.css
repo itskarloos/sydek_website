@@ -1,7 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;500;800&family=Volkhov:wght@400;700&family=Yesteryear&display=swap');
+
 .AboutContainer {
+    margin: auto;
     padding: 80px;
     box-sizing: border-box;
     width: 100%;
     height: 100vh;
+}
+
+.About-Hero {
+    font-family: 'Manrope', "sans-serif";
+    margin: 30px auto;
+}
+
+.description {
+    max-width: 700px;
+}
+
+.About-Hero h1 {
+    font-weight: 800;
+    font-family: 100px;
+}
+
+.MainDescription {
+    margin: 30px 30px;
 }
 
