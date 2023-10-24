@@ -1,0 +1,517 @@
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.logos {
+  overflow: hidden;
+  padding: 60px 0;
+  width: 100%;
+  white-space: nowrap;
+  position: relative;
+}
+
+.logos:before,
+.logos:after {
+  position: absolute;
+  top: 0;
+  width: 250px;
+  height: 100%;
+  content: "";
+  z-index: 2;
+}
+
+.logos:before {
+  left: 0;
+  background: linear-gradient(
+    to left,
+    rgba(255, 255, 255, 0),
+    rgba(177, 152, 251, 0)
+  );
+}
+
+.logos:after {
+  right: 0;
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0),
+    rgba(188, 165, 255, 0)
+  );
+}
+
+.logos:hover .logos-slide {
+  animation-play-state: paused;
+}
+
+.logos-slide {
+  display: inline-block;
+  animation: 10s slide infinite linear;
+}
+
+.logos-slide img {
+  height: 50px;
+  margin: 0 30px;
+}
+.frame {
+  height: 250px;
+  width: 250px;
+}
+
+.frame .overlap-group {
+  border-radius: 10px;
+  height: 221px;
+  position: relative;
+}
+
+.frame .rectangle {
+  height: 120px;
+  left: 15px;
+  object-fit: cover;
+  position: absolute;
+  top: 14px;
+  width: 120px;
+}
+.frame .div:hover {
+  -webkit-backdrop-filter: blur(60px) brightness(100%);
+  backdrop-filter: blur(40px) brightness(100%);
+  transition: all 0.2s ease;
+  box-shadow: 0 5px 15px rgba(145, 92, 182, 0.3);
+  border-color: #000000;
+}
+.frame .div {
+  -webkit-backdrop-filter: blur(40px) brightness(100%);
+  backdrop-filter: blur(20px) brightness(100%);
+  background-color: #d9d9d903;
+  border: 1px solid;
+  border-color: #ffffff18;
+  border-radius: 10px;
+  height: 250px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transition: all 0.8s ease;
+  width: 250px;
+}
+
+.frame .text-wrapper {
+  color: #ffffff;
+  font-family: "manrope", Helvetica;
+  font-size: 20px;
+  font-weight: 300;
+  left: 18px;
+  letter-spacing: 0.8px;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 73px;
+}
+
+.frame .p {
+  color: #ffffff;
+  font-family: "Manrope-Regular", Helvetica;
+  font-size: 19px;
+  font-weight: 300;
+  left: 18px;
+  letter-spacing: 0.9px;
+  line-height: 1.3;
+  position: absolute;
+  top: 104px;
+  width: 220px;
+}
+
+.frame .development {
+  height: 35px;
+  left: 18px;
+  object-fit: cover;
+  position: absolute;
+  top: 26px;
+  width: 35px;
+}
+
+.service-btn {
+  padding: 1.3em 3em;
+  font-size: 12px;
+  width: 205px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+
+.service-btn:hover {
+  background-color: #0009ad;
+  box-shadow: 0px 15px 20px rgba(0, 21, 255, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+.service-btn:active {
+  transform: translateY(-1px);
+}
+
+.box-container {
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+
+.box-container .group {
+  left: 0;
+  position: static;
+  top: 0;
+}
+
+.box-container .earth {
+  left: 0;
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+}
+
+/* team page styles*/
+
+.team-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-top: 40px;
+  margin-bottom: 100px;
+}
+.team {
+  position: relative;
+
+  width: 100%;
+  text-align: center;
+  max-width: 300px;
+}
+
+.team .team-img {
+  position: relative;
+  font-size: 0;
+  color: #ffffff;
+  border-radius: 100%;
+}
+
+.team .team-img img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 80%;
+}
+
+.team .team-social {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.5);
+  transition: all 0.3s;
+  font-size: 0;
+  z-index: 1;
+  opacity: 0;
+  border-radius: 20px 20px 0 0;
+}
+
+.team:hover .team-social {
+  opacity: 1;
+}
+
+.team .team-social a {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  margin-right: 5px;
+  padding: 11px 0 10px 0;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 16px;
+  text-align: center;
+  color: #ffffff;
+  transition: all 0.5s;
+  margin-top: 100px;
+}
+
+.team .team-social a:last-child {
+  margin-right: 0;
+}
+
+.team:hover .team-social a {
+  margin-top: 0;
+}
+
+.team .team-social a:hover {
+  color: #222222;
+  background: #ffffff;
+}
+
+.team .team-content {
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 0 0 20px 20px;
+}
+
+.team .team-content h2 {
+  margin: 0 0 5px 0;
+  color: #12192c;
+  font-size: 25px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.team .team-content h3 {
+  margin: 0 0 15px 0;
+  color: #12192c;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.team .team-content p {
+  margin: 0 0 15px 0;
+  color: #12192c;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.team .team-skill {
+  width: 100%;
+}
+
+.team .skill-name {
+  text-align: left;
+}
+
+.team .skill-name p {
+  display: inline-block;
+  color: #12192c;
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.team .skill-name p:last-child {
+  float: right;
+}
+
+.team .progress {
+  position: relative;
+  width: 100%;
+  height: 5px;
+  margin-bottom: 10px;
+  background: #dddddd;
+  border-radius: 20px;
+}
+
+.team .progress:last-child {
+  margin: 0;
+}
+
+.team .progress-bar {
+  position: absolute;
+  width: 0%;
+  height: 5px;
+  top: 0;
+  left: 0;
+  background: #12192c;
+  transition: all 0.7s;
+  z-index: 1;
+  border-radius: 20px;
+}
+
+.team:hover .progress-bar.w-70 {
+  width: 70%;
+}
+
+.team:hover .progress-bar.w-80 {
+  width: 80%;
+}
+
+.team:hover .progress-bar.w-90 {
+  width: 90%;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700;800;900&display=swap");
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  min-height: 100vh;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  font-family: "League Spartan", system-ui, sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.2;
+  background-color: #212121;
+  color: #ddd;
+}
+
+ul {
+  list-style: none;
+}
+
+.main {
+  max-width: 75rem;
+  padding: 3em 1.5em;
+}
+
+.main__heading {
+  font-weight: 600;
+  font-size: 2.25em;
+  margin-bottom: 0.75em;
+  text-align: center;
+  color: #eceff1;
+}
+
+.cards {
+  position: relative;
+}
+
+.cards__inner {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2.5em;
+}
+
+.card {
+  --flow-space: 0.5em;
+  --hsl: var(--hue), var(--saturation), var(--lightness);
+  flex: 1 1 14rem;
+  padding: 1.5em 2em;
+  display: grid;
+  grid-template-rows: auto auto auto 1fr;
+  align-items: start;
+  gap: 1.25em;
+  color: #eceff1;
+  background-color: #2b2b2b;
+  border: 1px solid #eceff133;
+  border-radius: 15px;
+}
+
+.card:nth-child(1) {
+  --hue: 165;
+  --saturation: 82.26%;
+  --lightness: 51.37%;
+}
+
+.card:nth-child(2) {
+  --hue: 291.34;
+  --saturation: 95.9%;
+  --lightness: 61.76%;
+}
+
+.card:nth-child(3) {
+  --hue: 338.69;
+  --saturation: 100%;
+  --lightness: 48.04%;
+}
+
+.card__bullets {
+  line-height: 1.4;
+}
+
+.card__bullets li::before {
+  display: inline-block;
+  content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512' width='16' title='check' fill='%23dddddd'%3E%3Cpath d='M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z' /%3E%3C/svg%3E");
+  transform: translatey(0.25ch);
+  margin-right: 1ch;
+}
+
+.card__heading {
+  font-size: 1.05em;
+  font-weight: 600;
+}
+
+.card__price {
+  font-size: 1.75em;
+  font-weight: 700;
+}
+
+.flow > * + * {
+  margin-top: var(--flow-space, 1.25em);
+}
+
+.cta {
+  display: block;
+  align-self: end;
+  margin: 1em 0 0.5em 0;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background-color: #0d0d0d;
+  padding: 0.7em;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  user-select: none;
+  opacity: var(--opacity, 0);
+  -webkit-mask: radial-gradient(
+    25rem 25rem at var(--x) var(--y),
+    #000 1%,
+    transparent 50%
+  );
+  mask: radial-gradient(
+    25rem 25rem at var(--x) var(--y),
+    #000 1%,
+    transparent 50%
+  );
+  transition: 400ms mask ease;
+  will-change: mask;
+}
+
+.overlay .card {
+  background-color: hsla(var(--hsl), 0.15);
+  border-color: hsla(var(--hsl), 1);
+  box-shadow: 0 0 0 1px inset hsl(var(--hsl));
+}
+
+.overlay .cta {
+  display: block;
+  grid-row: -1;
+  width: 100%;
+  background-color: hsl(var(--hsl));
+  box-shadow: 0 0 0 1px hsl(var(--hsl));
+}
+
+:not(.overlay) > .card {
+  transition: 400ms background ease;
+  will-change: background;
+}
+
+:not(.overlay) > .card:hover {
+  --lightness: 95%;
+  background: hsla(var(--hsl), 0.1);
+}

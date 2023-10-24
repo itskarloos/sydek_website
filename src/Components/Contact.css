@@ -1,0 +1,72 @@
+.logo {
+  position: relative;
+  margin: 20px;
+  width: 110px;
+}
+.ContactCard {
+  width: 45%;
+}
+.image-div {
+  width: 100%;
+  position: relative;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+#contact-image {
+  background-image: url("../assets/contactform.jpg");
+  height: 96vh;
+  width: 95%;
+  background-size: cover;
+  object-fit: cover;
+  border-radius: 20px;
+}
+.paragraph-container {
+  display: flex;
+  flex-direction: column;
+  margin: 30vh auto 0px 30px;
+  width: 230px;
+  height: 230px;
+  color: white;
+  font-size: 15px;
+  font-family: manrope;
+  word-wrap: break-word;
+}
+.image-paragraph2 {
+  line-height: 5px;
+}
+.myname {
+  font-size: 18px;
+  font-weight: 400;
+}
+.mywork {
+  font-size: 15px;
+  font-weight: 300;
+}
+.paragraph-header {
+  position: relative;
+  color: #12192c;
+  font-size: 45px;
+  font-family: manrope;
+  font-weight: 600;
+  word-wrap: break-word;
+}
+.contact-container {
+  display: flex;
+  position: absolute;
+  width: 100%;
+}
+.form-section {
+  display: flex;
+
+  width: 50%;
+  position: relative;
+  margin-left: 50px;
+  align-items: center;
+}
+.top-message {
+  line-height: 5px;
+  font-family: manrope;
+}
