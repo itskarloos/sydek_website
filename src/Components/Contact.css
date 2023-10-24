@@ -1,7 +1,13 @@
+#home {
+  padding: 80px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
 .logo {
   position: relative;
   margin: 20px;
-  width: 110px;
+  width: 100%;
 }
 .ContactCard {
   width: 45%;

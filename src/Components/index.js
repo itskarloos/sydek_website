@@ -1,26 +1,31 @@
-import Navbar from "./Navbar";
-import Contact from "./Contact";
+// Exported Components
+import AboutPage from "./AboutPage"
 import Box from "./Box";
+import Contact from "./Contact";
 import Footer from "./Footer";
-import Ourservicebtn from "./button";
 import Hero from "./Hero";
-import LogoSlide from "./logoslide"
-import Service from "./service"
-import Techhnologies from "./Techhnologies";
-import Team from "./Team";
 import LandingPage from "./LandingPage";
-
+import LogoSlide from "./logoslide";
+import Navbar from "./Navbar";
+import Ourservicebtn from "./button";
+import Service from "./service";
+import Team from "./Team";
+import Techhnologies from "./Techhnologies";
 
 export {
+  // Components related to pages
+  AboutPage,
   Contact,
+  LandingPage,
   Team,
-  Techhnologies,
+
+  // Reusable UI components
   Box,
-  Service,
-  LogoSlide,
-  Navbar,
   Footer,
   Hero,
+  LogoSlide,
+  Navbar,
   Ourservicebtn,
-  LandingPage
+  Service,
+  Techhnologies,
 };

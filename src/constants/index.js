@@ -1,19 +1,19 @@
 import {  facebook, instagram, linkedin, twitter,   } from "../assets";
 export const navLinks = [
   {
-    id: "home",
+    id: "Home",
     title: "Home",
   },
   {
-    id: "about",
+    id: "About",
     title: "About",
   },
   {
-    id: "service",
+    id: "Service",
     title: "Service",
   },
   {
-    id: "contact",
+    id: "Contact",
     title: "Contact",
   },
   {

@@ -22,7 +22,7 @@ const contact = () => {
             </h1>
           </div>
           <p className={`${styles.paragraph} font-thin`}>
-            We&lsquod love to hear from you. Contact us today.
+            We would love to hear from you. Contact us today.
           </p>
         </div>
 
