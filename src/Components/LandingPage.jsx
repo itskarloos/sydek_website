@@ -10,9 +10,8 @@ const LandingPage = () => {
   return (
     <div className="bg-primary w-full overflow-hidden">
       {/* Render Hero section with animations */}
-      <div className={`bg-primary ${styles.flexStart}`}>
-        <Hero />
-      </div>
+
+      <Hero />
 
       {/* Render Service and other sections */}
       <div className={`bg-primary ${styles.flexStart} ${styles.flexCenter}`}>

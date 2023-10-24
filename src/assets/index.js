@@ -49,12 +49,9 @@ import typescript from "./TypeScript.png";
 import vue from "./Vue Js.png";
 import wordpress from "./WordPress.png";
 import net from "./net.png";
-import Innovation from "./InnovationValues.png";
-import Commitment from "./CommitmentValues.png";
-import Growth from "./GrowthValues.png";
-import Ownership from "./OwnershipValues.png";
-import Postivity from "./PostivityValues.png";
-import TeamWork from "./TeamWorkValues.png";
+import mobile from "./mobile.png";
+import saas from "./saas.png";
+import webdev from "./webdev.png";
 import location from "./location.png";
 import mail from "./mail.png";
 import pattern from "./pattern.png";
@@ -62,6 +59,9 @@ import phone from "./phone.png";
 import contact from "./contactform.jpg";
 
 export {
+  mobile,
+  webdev,
+  saas,
   contact,
   image,
   net,
@@ -123,5 +123,5 @@ export {
   Innovation,
   Ownership,
   Postivity,
-  TeamWork
+  TeamWork,
 };

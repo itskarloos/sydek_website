@@ -1,8 +1,8 @@
 import styles from "../style";
 import "./Service.css";
 import "./logo.css";
-import { ui, rectangle, arrow } from "../assets";
-import { useState, useEffect, useRef } from "react";
+import { saas, mobile, webdev, ui, rectangle, arrow } from "../assets";
+import React, { useState, useEffect, useRef } from "react";
 import { motion, useInView, useAnimation } from "framer-motion";
 import { GlowCapture, Glow } from "@codaworks/react-glow";
 const Service = () => {
@@ -41,7 +41,7 @@ const Service = () => {
           and help them succeed in an increasingly digital world.
         </p>
         <div
-          className={`flex ${styles.flexStart} flex-row flex-wrap justify-between mt-5 w-[100%]`}
+          className={`flex ${styles.flexStart} flex-row flex-wrap justify-between mt-[10px] w-[100%]`}
         >
           <GlowCapture>
             <Glow color="hsl(239, 99%, 50%)">
@@ -50,7 +50,7 @@ const Service = () => {
                   <img className="development" alt="Development" src={ui} />
                 </div>
 
-                <p className="CardHeading">Web Development</p>
+                <p className="CardHeading">UI/UX Design</p>
 
                 <p className="CardParagraph">
                   Our team will create a seemless user experience design for you
@@ -58,18 +58,6 @@ const Service = () => {
               </div>
             </Glow>
           </GlowCapture>
-
-          <div className="frame mr-5 mb-5">
-            <div className="overlap-group ">
-              <div className="div" />
-              <div className="text-wrapper">Web Development</div>
-              <p className="p">
-                Our team builds great websites by combining creativity,
-                technology, and user experience.
-              </p>
-              <img className="development" alt="Development" src={ui} />
-            </div>
-          </div>
         </div>
         <div
           className={`flex ${styles.flexStart} flex-row flex-wrap justify-between mt-2 w-[100%]`}
