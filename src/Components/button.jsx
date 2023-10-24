@@ -9,4 +9,4 @@ const button = () => (
         </div>
     </div>
 )
-export default button
+export default button;
