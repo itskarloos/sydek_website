@@ -6,7 +6,7 @@ import "./Contact.css";
 
 const Contact = () => {
   return (
-    <section id="home" className={` flex-col ${styles.paddingY}`}>
+    <section className={` flex-col ${styles.paddingY}`}>
       <div
         className={`flex-1 ${styles.flexStart} flex-col xl:px-16 sm:px-16 px-6`}
       >
@@ -21,8 +21,8 @@ const Contact = () => {
           </p>
         </div>
 
-        <div className="flex flex-wrap justify-between w-[100%]">
-          <div className="ContactCard">
+        <div className="Contact xs:flex-wrap flex justify-around w-[100%]">
+          <div className="ContactCard xs:w-[100%] ss:w-[50%]">
             <div className="image-div">
               <div id="contact-image">
                 <img className="logo" src={logo} />
@@ -65,8 +65,8 @@ const Contact = () => {
             </div>
           </div>
 
-          <div className="ContactForm__Wrapper">
-            <div className="contact-form">
+          <div className="ContactForm__Wrapper xs:w-[100%] ss:w-[50%]">
+            <div className="contact-form ">
               <ContactForm />
             </div>
           </div>

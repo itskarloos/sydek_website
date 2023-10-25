@@ -1,4 +1,34 @@
 /* Adjust the width and margin for even spacing */
+#home {
+  padding: 80px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+/* Add media queries for responsiveness */
+.carousel-container {
+  width: 100%; /* Adjust the width to your preferred size */
+  overflow: hidden;
+  position: relative;
+}
+
+.carousel-track {
+  display: flex;
+  animation: slide 10s linear infinite;
+  animation-timing-function: linear;
+}
+
+.carousel-item {
+  width: 100%;
+  position: relative;
+  animation: fadeOut 2s 8s both;
+}
+
+.carousel-item img {
+  width: 100px;
+  height: auto;
+}
+
 @keyframes slide {
   0% {
     transform: translateX(0);
@@ -16,26 +46,19 @@
     opacity: 0;
   }
 }
-.carousel-container {
-  width: 100%;
-  overflow: hidden;
-  position: relative;
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .carousel-container {
+    width: 80%; /* Adjust the width for smaller screens */
+  }
 }
 
-.carousel-track {
-  display: inline-block;
-  animation: slide 20s linear infinite; /* Double the duration to slow down the slide */
-}
-
-.carousel-item {
-  width: 20%; /* Adjust the width to create even spacing */
-  position: relative;
-  animation: fadeOut 2s 16s both; /* Synchronize the fadeOut animation */
-}
-
-.carousel-item img {
-  width: 100%;
-  height: auto;
+/* Media query for even smaller screens */
+@media (max-width: 480px) {
+  .carousel-container {
+    width: 90%; /* Further adjust the width for very small screens */
+  }
 }
 
 .box-container {

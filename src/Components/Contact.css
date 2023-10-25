@@ -1,78 +1,16 @@
-#home {
-  padding: 80px;
-  box-sizing: border-box;
-  width: 100%;
-}
-
-/* Add media queries for responsiveness */
-.carousel-container {
-  width: 100%; /* Adjust the width to your preferred size */
-  overflow: hidden;
-  position: relative;
-}
-
-.carousel-track {
-  display: flex;
-  animation: slide 10s linear infinite;
-  animation-timing-function: linear;
-}
-
-.carousel-item {
-  width: 100%;
-  position: relative;
-  animation: fadeOut 2s 8s both;
-}
-
-.carousel-item img {
-  width: 100px;
-  height: auto;
-}
-
-@keyframes slide {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(-100%);
-  }
-}
-
-@keyframes fadeOut {
-  0% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
-}
-
-/* Media query for smaller screens */
-@media (max-width: 768px) {
-  .carousel-container {
-    width: 80%; /* Adjust the width for smaller screens */
-  }
-}
-
-/* Media query for even smaller screens */
-@media (max-width: 480px) {
-  .carousel-container {
-    width: 90%; /* Further adjust the width for very small screens */
-  }
-}
-
 .logo {
   position: relative;
   margin: 20px;
   width: 150px;
 }
+
 .ContactCard {
-  min-width: 250px;
   height: 500px;
 }
 .image-div {
   width: 100%;
   position: relative;
-  height: 100vh;
+  height: 400px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -80,7 +18,7 @@
 }
 #contact-image {
   background-image: url("../assets/contactform.jpg");
-  height: 96vh;
+  height: 400px;
   width: 95%;
   background-size: cover;
   object-fit: cover;
@@ -89,7 +27,7 @@
 .paragraph-container {
   display: flex;
   flex-direction: column;
-  margin: 30vh auto 0px 30px;
+  margin: 15vh auto 0px 30px;
   width: 230px;
   height: 230px;
   color: white;

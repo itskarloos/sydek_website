@@ -1,6 +1,14 @@
 import styles from "./style";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import { LandingPage, Footer, Navbar, Team, Contact, Service, AboutPage } from "./Components";
+import {
+  LandingPage,
+  Footer,
+  Navbar,
+  Team,
+  Contact,
+  Service,
+  AboutPage,
+} from "./Components";
 
 const App = () => {
   return (
