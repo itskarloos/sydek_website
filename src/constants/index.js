@@ -13,18 +13,14 @@ export const navLinks = [
     title: "Service",
   },
   {
-    id: "Contact",
-    title: "Contact",
-  },
-  {
-    id: "./Team",
+    id: "Team",
     title: "Team",
   },
+  {
+    id: "https://www.linkedin.com/company/sydekse",
+    title: "LinkedIn",
+  }
 ];
-
-
-
-
 
 export const stats = [
   {
@@ -50,19 +46,19 @@ export const footerLinks = [
     links: [
       {
         name: "About Us",
-        link: "#",
+        link: "./About",
       },
       {
         name: "Services",
-        link: "#",
+        link: "/Service",
       },
       {
         name: "Contact",
-        link: "#",
+        link: "/Contact",
       },
       {
         name: "Teams",
-        link: "../Components/Team.jsx",
+        link: "./Team",
       },
       
     ],
@@ -72,7 +68,7 @@ export const footerLinks = [
     links: [
       {
         name: "Email",
-        link: "#",
+        link: "info@sydek.io",
       },
       {
         name: "Phone",
@@ -84,7 +80,7 @@ export const footerLinks = [
       },
       {
         name: "Linkdin",
-        link: "#",
+        link: "https://www.linkedin.com/company/sydekse",
       },
       
     ],
@@ -107,11 +103,11 @@ export const socialMedia = [
     icon: instagram,
     link: "https://www.instagram.com/",
   },
-  {
-    id: "social-media-2",
-    icon: facebook,
-    link: "https://www.facebook.com/",
-  },
+  // {
+  //   id: "social-media-2",
+  //   icon: facebook,
+  //   link: "https://www.facebook.com/",
+  // },
   {
     id: "social-media-3",
     icon: twitter,
@@ -120,7 +116,7 @@ export const socialMedia = [
   {
     id: "social-media-4",
     icon: linkedin,
-    link: "https://www.linkedin.com/",
+    link: "https://www.linkedin.com/company/sydekse",
   },
 ];
 

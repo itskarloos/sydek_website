@@ -73,6 +73,10 @@
     margin: 10px auto;
 }
 
+.MissionDescription {
+    text-align: justify;
+}
+
 .IconContainer {
     display: flex;
     flex-direction: column;
@@ -82,16 +86,16 @@
 
 .IconCard {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     align-items: center;
 }
 
 .MImgCard {
-    border-radius: 3px;
-    padding: 5px;
-    border: 2px #2F2F2F solid;
-    max-width: 300px;
-    max-height: 300px;
+    border-radius: 2px;
+    margin: auto 30px;
+    /* background-color: #fff; */
+    max-width: 150px;
+    max-height: 150px;
     overflow: hidden;
 }
 
