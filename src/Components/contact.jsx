@@ -9,7 +9,7 @@ import {
 import styles from "../style";
 import "./Contact.css";
 
-const contact = () => {
+const Contact = () => {
   return (
     <section id="home" className={` flex-col ${styles.paddingY}`}>
       <div
@@ -81,4 +81,4 @@ const contact = () => {
   );
 };
 
-export default contact;
+export default Contact;
