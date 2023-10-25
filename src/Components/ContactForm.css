@@ -3,7 +3,7 @@ body {
   font-family: "Manrope", sans-serif;
 }
 .ContactForm__Wrapper {
-  max-width: 700px;
+  min-width: 250px;
 }
 .contact-form {
   width: 100%;
