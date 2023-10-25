@@ -4,6 +4,62 @@
   width: 100%;
 }
 
+/* Add media queries for responsiveness */
+.carousel-container {
+  width: 100%; /* Adjust the width to your preferred size */
+  overflow: hidden;
+  position: relative;
+}
+
+.carousel-track {
+  display: flex;
+  animation: slide 10s linear infinite;
+  animation-timing-function: linear;
+}
+
+.carousel-item {
+  width: 100%;
+  position: relative;
+  animation: fadeOut 2s 8s both;
+}
+
+.carousel-item img {
+  width: 100px;
+  height: auto;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .carousel-container {
+    width: 80%; /* Adjust the width for smaller screens */
+  }
+}
+
+/* Media query for even smaller screens */
+@media (max-width: 480px) {
+  .carousel-container {
+    width: 90%; /* Further adjust the width for very small screens */
+  }
+}
+
 .logo {
   position: relative;
   margin: 20px;
@@ -11,6 +67,7 @@
 }
 .ContactCard {
   min-width: 250px;
+  height: 500px;
 }
 .image-div {
   width: 100%;
