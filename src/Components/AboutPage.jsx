@@ -9,12 +9,12 @@ import {
     Vision, 
     Commitment} from "../assets"
 import "./AboutPage.css";
-import styles from "../style"
+// import styles from "../style"
 
 const AboutPage = () => {
     return (
         <Fragment>
-            <section id="AboutContainer" className= {`flex md:flex-row flex-col ${styles.paddingY}`}>
+            <section id="" className= "AboutContainer">
                 <div className="HeroContainer">
                     <div className="AboutHero">
                         <h1 className="Handle font-manrope font-semibold ss:text-[72px] text-[52px] text-white z-[1] ">

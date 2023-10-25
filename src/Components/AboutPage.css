@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;500;800&family=Volkhov:wght@400;700&family=Yesteryear&display=swap');
+
 /* Main Container */
-#AboutContainer {
+.AboutContainer {
     margin: auto;
     padding: 50px;
     box-sizing: border-box;
