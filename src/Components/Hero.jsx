@@ -53,6 +53,7 @@ const Hero = () => (
     <div>
       {/* Background Gradient */}
       <div className="absolute z-[0] w-[50%] p h-[50%] right-20 bottom-20 blue__gradient" />
+      <div className="absolute z-[0] w-[50%] p h-[20%] right-0 top-0 purple__gradient" />
     </div>
   </section>
 );

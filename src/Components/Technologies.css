@@ -1,0 +1,8 @@
+/* Techhnologies.css */
+.bounce-on-hover {
+  transition: transform 0.2s ease-in-out;
+}
+
+.bounce-on-hover:hover {
+  transform: scale(1.1);
+}

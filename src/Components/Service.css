@@ -68,65 +68,6 @@
   }
 }
 
-.frame {
-  height: 250px;
-  width: 250px;
-  border-radius: 10px;
-}
-
-.frame .rectangle {
-  height: 120px;
-  left: 15px;
-  object-fit: cover;
-  position: absolute;
-  top: 14px;
-  width: 120px;
-}
-.frame .div:hover {
-  -webkit-backdrop-filter: blur(60px) brightness(100%);
-  backdrop-filter: blur(40px) brightness(100%);
-  transition: all 0.2s ease;
-  box-shadow: 0 5px 15px rgba(145, 92, 182, 0.3);
-  border-color: #000000;
-}
-.frame .div {
-}
-
-.frame .text-wrapper {
-  color: #ffffff;
-  font-family: "manrope", Helvetica;
-  font-size: 20px;
-  font-weight: 300;
-  left: 18px;
-  letter-spacing: 0.8px;
-  line-height: normal;
-  position: absolute;
-  text-align: center;
-  top: 73px;
-}
-
-.frame .p {
-  color: #ffffff;
-  font-family: "Manrope-Regular", Helvetica;
-  font-size: 19px;
-  font-weight: 300;
-  left: 18px;
-  letter-spacing: 0.9px;
-  line-height: 1.3;
-  position: absolute;
-  top: 104px;
-  width: 220px;
-}
-
-.frame .development {
-  height: 35px;
-  left: 18px;
-  object-fit: cover;
-  position: absolute;
-  top: 26px;
-  width: 35px;
-}
-
 .CardContainer {
   -webkit-backdrop-filter: blur(40px) brightness(100%);
   backdrop-filter: blur(20px) brightness(100%);
@@ -139,6 +80,7 @@
   top: 0;
   transition: all 0.8s ease;
   width: 250px;
+  margin-top: 20px;
 }
 
 .CardImage {
@@ -153,4 +95,31 @@
   margin: 5px 5px 0 20px;
   font-size: 17px;
   font-weight: 200;
+}
+.service-btn {
+  padding: 1.3em 3em;
+  font-size: 12px;
+  width: 205px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #ffffff;
+  background-color: #2020236f;
+  border: 2px rgb(57, 66, 91) none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+
+.service-btn:hover {
+  background-color: #0009ad;
+  box-shadow: 0px 15px 20px rgba(0, 21, 255, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+.service-btn:active {
+  transform: translateY(-1px);
 }
