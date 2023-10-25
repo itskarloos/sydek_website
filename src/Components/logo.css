@@ -38,34 +38,6 @@
   height: auto;
 }
 
-.service-btn {
-  padding: 1.3em 3em;
-  font-size: 12px;
-  width: 205px;
-  text-transform: uppercase;
-  letter-spacing: 2.5px;
-  font-weight: 500;
-  color: #000;
-  background-color: #fff;
-  border: none;
-  border-radius: 45px;
-  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
-  transition: all 0.3s ease 0s;
-  cursor: pointer;
-  outline: none;
-}
-
-.service-btn:hover {
-  background-color: #0009ad;
-  box-shadow: 0px 15px 20px rgba(0, 21, 255, 0.4);
-  color: #fff;
-  transform: translateY(-7px);
-}
-
-.service-btn:active {
-  transform: translateY(-1px);
-}
-
 .box-container {
   width: 100%;
   height: auto;
