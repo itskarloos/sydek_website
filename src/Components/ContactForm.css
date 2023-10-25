@@ -4,6 +4,7 @@ body {
 }
 .ContactForm__Wrapper {
   min-width: 250px;
+  height: 500px;
 }
 .contact-form {
   width: 100%;

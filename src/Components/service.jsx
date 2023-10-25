@@ -40,7 +40,7 @@ const Service = () => {
           and help them succeed in an increasingly digital world.
         </p>
         <div
-          className={`flex ${styles.flexStart} flex-row flex-wrap justify-between mt-[10px] w-[100%]`}
+          className={`flex ${styles.flexStart} flex-row flex-wrap justify-around mt-[10px] w-[100%]`}
         >
           <GlowCapture>
             <Glow color="hsl(239, 99%, 50%)">

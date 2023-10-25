@@ -1,60 +1,41 @@
+/* Adjust the width and margin for even spacing */
 @keyframes slide {
-  from {
+  0% {
     transform: translateX(0);
   }
-  to {
+  100% {
     transform: translateX(-100%);
   }
 }
 
-.logos {
-  overflow: hidden;
-  padding: 60px 0;
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.carousel-container {
   width: 100%;
-  white-space: nowrap;
+  overflow: hidden;
   position: relative;
 }
 
-.logos:before,
-.logos:after {
-  position: absolute;
-  top: 0;
-  width: 250px;
-  height: 100%;
-  content: "";
-  z-index: 2;
-}
-
-.logos:before {
-  left: 0;
-  background: linear-gradient(
-    to left,
-    rgba(255, 255, 255, 0),
-    rgba(177, 152, 251, 0)
-  );
-}
-
-.logos:after {
-  right: 0;
-  background: linear-gradient(
-    to right,
-    rgba(255, 255, 255, 0),
-    rgba(188, 165, 255, 0)
-  );
-}
-
-.logos:hover .logos-slide {
-  animation-play-state: paused;
-}
-
-.logos-slide {
+.carousel-track {
   display: inline-block;
-  animation: 10s slide infinite linear;
+  animation: slide 20s linear infinite; /* Double the duration to slow down the slide */
 }
 
-.logos-slide img {
-  height: 50px;
-  margin: 0 30px;
+.carousel-item {
+  width: 20%; /* Adjust the width to create even spacing */
+  position: relative;
+  animation: fadeOut 2s 16s both; /* Synchronize the fadeOut animation */
+}
+
+.carousel-item img {
+  width: 100%;
+  height: auto;
 }
 
 .service-btn {
@@ -271,8 +252,6 @@
 .team:hover .progress-bar.w-90 {
   width: 90%;
 }
-
-
 
 *,
 *::after,
