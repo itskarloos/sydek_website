@@ -1,15 +1,6 @@
-// Import necessary styles and components
 import styles from "./style";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import {
-  AboutPage,
-  LandingPage,
-  Footer,
-  Navbar,
-  Team,
-  Contact,
-  Service,
-} from "./Components";
+import { LandingPage, Footer, Navbar, Team, Contact } from "./Components";
 
 const App = () => {
   return (
@@ -26,11 +17,8 @@ const App = () => {
         <Routes>
           {/* Define routes using Route components */}
           <Route path="/Home" exact element={<LandingPage />} />
-          <Route path="/" exact element={<LandingPage />} />
           <Route path="/Contact" element={<Contact />} />
           <Route path="/Team" element={<Team />} />
-          <Route path="/About" element={<AboutPage />} />
-          <Route path="/Service" element={<Service />} />
         </Routes>
       </Router>
 

@@ -7,10 +7,10 @@
 .logo {
   position: relative;
   margin: 20px;
-  width: 100%;
+  width: 150px;
 }
 .ContactCard {
-  max-width: 700px;
+  min-width: 250px;
 }
 .image-div {
   width: 100%;
