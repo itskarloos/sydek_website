@@ -69,6 +69,7 @@ const AboutPage = () => {
                                 </div>
                             </div>
                         </div>
+                        
                     </div>
                 </div>
                 <div className="VlauesContainer">
@@ -103,7 +104,9 @@ const AboutPage = () => {
                     <Contact />
                 </div>
             </section>
+            <div className="absolute z-[0] w-[50%] p h-[40%] right-20 top-40 blue__gradient"/>
         </Fragment>
+        
     );
 }
 
