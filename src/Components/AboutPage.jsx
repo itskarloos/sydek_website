@@ -4,10 +4,10 @@ import {
     Growth,
     Innovation,
     Ownership,
-    TeamWork, 
     Work,
     Mission,
-    Vision } from "../assets"
+    Vision, 
+    Commitment} from "../assets"
 import "./AboutPage.css";
 import styles from "../style"
 
@@ -92,8 +92,8 @@ const AboutPage = () => {
                             <p>Building an enterprise doesn't need nightmare or cost your thousands</p>
                         </div>
                         <div className="ValueCard">
-                            <img src= {TeamWork} alt= "Team Work Syncing" />
-                            <h4 className="font-manrope font-semibold text-[25px] text-white z-[1]">Team Work</h4>
+                            <img src= {Commitment} alt= "Team Work Syncing" />
+                            <h4 className="font-manrope font-semibold text-[25px] text-white z-[1]">Commitment</h4>
                             <p>Building an enterprise doesn't need nightmare or cost your thousands</p>
                         </div>
                     </div>

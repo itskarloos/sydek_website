@@ -8,19 +8,19 @@ import LandingPage from "./LandingPage";
 import LogoSlide from "./logoslide";
 import Navbar from "./Navbar";
 import Ourservicebtn from "./button";
-import Hero from "./Hero";
-import LogoSlide from "./logoslide";
 import Service from "./service";
 import Techhnologies from "./Techhnologies";
 import Team from "./Team";
 import Teams from "./Teams";
-import LandingPage from "./LandingPage";
 
 export {
+  AboutPage,
   Teams,
   Contact,
   LandingPage,
   Team,
+  Service,
+  Techhnologies,
 
   // Reusable UI components
   Box,
@@ -29,5 +29,4 @@ export {
   LogoSlide,
   Navbar,
   Ourservicebtn,
-  LandingPage,
 };

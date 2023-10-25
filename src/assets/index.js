@@ -60,6 +60,10 @@ import contact from "./contactform.jpg";
 import Work from "./AboutWork.jpg";
 import Mission from "./Mission.png";
 import Vision from "./Vision.png";
+import Commitment from "./CommitmentValues.png";
+import Growth from "./GrowthValues.png";
+import Ownership from "./OwnershipValues.png";
+import Innovation from "./InnovationValues.png";
 
 export {
   mobile,
@@ -125,12 +129,7 @@ export {
   Growth,
   Innovation,
   Ownership,
-  Postivity,
-  TeamWork,
-<<<<<<< HEAD
   Work,
   Mission,
   Vision
-=======
->>>>>>> b5050eb932acbbe276985bdbf00ef1fe8fb4b246
 };
