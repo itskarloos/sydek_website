@@ -10,7 +10,7 @@
   width: 100%;
 }
 .ContactCard {
-  width: 45%;
+  max-width: 700px;
 }
 .image-div {
   width: 100%;
