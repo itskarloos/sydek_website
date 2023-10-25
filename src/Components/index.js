@@ -3,11 +3,11 @@ import AboutPage from "./AboutPage";
 import Box from "./Box";
 import Contact from "./Contact";
 import Footer from "./Footer";
-import Hero from "./Hero";
 import LandingPage from "./LandingPage";
 import LogoSlide from "./logoslide";
 import Navbar from "./Navbar";
 import Ourservicebtn from "./button";
+import Hero from "./Hero";
 import Service from "./service";
 import Techhnologies from "./Techhnologies";
 import Team from "./Team";
@@ -21,7 +21,6 @@ export {
   Team,
   Service,
   Techhnologies,
-
   // Reusable UI components
   Box,
   Footer,
