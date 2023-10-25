@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;500;800&family=Volkhov:wght@400;700&family=Yesteryear&display=swap');
 /* Main Container */
-.AboutContainer {
+#AboutContainer {
     margin: auto;
     padding: 50px;
     box-sizing: border-box;
@@ -34,6 +34,70 @@
 .explianation {
     /* margin-left: 20px; */
     max-width: 600px;
+}
+
+/* Work Section */ 
+
+.WorkContainer {
+    margin: 50px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.WorkContainer .ImgCard {
+    max-width: 700px;
+    max-height: 700px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.ImgCard img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.MissionContainer {
+    margin: auto 20px;
+    max-width: 700px;
+    max-height: auto;
+    /* background-color: #fff; */
+    border-radius: 20px;
+    /* color: #2F2F2F; */
+    padding: 10px;
+}
+
+.MissionContainer h1 {
+    margin: 10px auto;
+}
+
+.IconContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.IconCard {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.MImgCard {
+    border-radius: 3px;
+    padding: 5px;
+    border: 2px #2F2F2F solid;
+    max-width: 300px;
+    max-height: 300px;
+    overflow: hidden;
+}
+
+.MImgCard img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 /* Values Section */

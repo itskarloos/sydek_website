@@ -60,6 +60,9 @@ import mail from "./mail.png";
 import pattern from "./pattern.png";
 import phone from "./phone.png";
 import contact from "./contactform.jpg";
+import Work from "./AboutWork.jpg";
+import Mission from "./Mission.png";
+import Vision from "./Vision.png";
 
 export {
   contact,
@@ -123,5 +126,8 @@ export {
   Innovation,
   Ownership,
   Postivity,
-  TeamWork
+  TeamWork,
+  Work,
+  Mission,
+  Vision
 };

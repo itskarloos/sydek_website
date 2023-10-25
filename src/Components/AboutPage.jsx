@@ -1,18 +1,20 @@
 import { Fragment } from "react";
 // import { Contact } from "./Contact";
 import { 
-    Commitment,
     Growth,
     Innovation,
     Ownership,
-    Postivity,
-    TeamWork } from "../assets"
-import "./AboutPage.css"
+    TeamWork, 
+    Work,
+    Mission,
+    Vision } from "../assets"
+import "./AboutPage.css";
+import styles from "../style"
 
 const AboutPage = () => {
     return (
         <Fragment>
-            <section className="AboutContainer">
+            <section id="AboutContainer" className= {`flex md:flex-row flex-col ${styles.paddingY}`}>
                 <div className="HeroContainer">
                     <div className="AboutHero">
                         <h1 className="Handle font-manrope font-semibold ss:text-[72px] text-[52px] text-white z-[1] ">
@@ -34,36 +36,72 @@ const AboutPage = () => {
                         </p>
                     </div>
                 </div>
+                <div className="WorkContainer">
+                    <div className="ImgCard">
+                        <img src= {Work} alt="Work Image Syncing" />
+                    </div>
+                    <div className="MissionContainer">
+                        <div className="MissionContainer">
+                            <h1 className="font-manrope font-semibold text-[25px]">
+                                We're on a mission to bring ideas to life.
+                            </h1>
+                            <p className="MissionDescription">SYDEK stands at the forefront of software development, bridging the gap between visionary ideas and tangible solutions. With a global mindset, SYDEK seamlessly connects businesses with top software 
+                            development talent worldwide, offering tailored teams and individual expertise. More than a service provider, SYDEK is a transformative partner, dedicated to crafting unique and innovative software solutions that 
+                            pave the way for a successful digital future.</p>
+                        </div>
+                        <div className="IconContainer">
+                            <div className="IconCard">
+                                <div className="MImgCard">
+                                    <img src= {Mission} alt="" />
+                                </div>
+                                <div className="TextCard">
+                                    <h1>Mission</h1>
+                                    <p>SYDEK’s mission is to boldly revolutionize the landscape of software development</p>
+                                </div>
+                            </div>
+                            <div className="IconCard">
+                                <div className="MImgCard">
+                                    <img src= {Vision} alt="" />
+                                </div>
+                                <div className="TextCard">
+                                    <h1>Mission</h1>
+                                    <p>SYDEK’s mission is to boldly revolutionize the landscape of software development</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div className="VlauesContainer">
                     <h1 className="Title font-manrope font-semibold text-[60px] text-white z-[1]">
                         Our Values
                     </h1>
                     <div className="ValuesList">
                         <div className="ValueCard">
-                            <img src= {Innovation} alt= "Innovation Sync" />
+                            <img src= {Innovation} alt= "Innovation Syncing" />
                             <h4 className="font-manrope font-semibold text-[25px] text-white z-[1]">Innovation</h4>
                             <p>Building an enterprise doesn't need nightmare or cost your thousands</p>
                         </div>
                         <div className="ValueCard">
-                            <img src= {Growth} alt= "Innovation Sync" />
+                            <img src= {Growth} alt= "Growth Syncing" />
                             <h4 className="font-manrope font-semibold text-[25px] text-white z-[1]">Growth</h4>
                             <p>Building an enterprise doesn't need nightmare or cost your thousands</p>
                         </div>
                         <div className="ValueCard">
-                            <img src= {Ownership} alt= "Innovation Sync" />
+                            <img src= {Ownership} alt= "Ownership Syncing" />
                             <h4 className="font-manrope font-semibold text-[25px] text-white z-[1]">Ownership</h4>
                             <p>Building an enterprise doesn't need nightmare or cost your thousands</p>
                         </div>
                         <div className="ValueCard">
-                            <img src= {TeamWork} alt= "Innovation Sync" />
+                            <img src= {TeamWork} alt= "Team Work Syncing" />
                             <h4 className="font-manrope font-semibold text-[25px] text-white z-[1]">Team Work</h4>
                             <p>Building an enterprise doesn't need nightmare or cost your thousands</p>
                         </div>
                     </div>
                     
                 </div>
-                
-                {/* <Contact /> */}
+                <div className="ContactSection">
+                    {/* <Contact /> */}
+                </div>
             </section>
         </Fragment>
     );
