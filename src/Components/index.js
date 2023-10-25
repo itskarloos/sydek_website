@@ -1,5 +1,5 @@
 // Exported Components
-import AboutPage from "./AboutPage"
+import AboutPage from "./AboutPage";
 import Box from "./Box";
 import Contact from "./Contact";
 import Footer from "./Footer";
@@ -8,13 +8,16 @@ import LandingPage from "./LandingPage";
 import LogoSlide from "./logoslide";
 import Navbar from "./Navbar";
 import Ourservicebtn from "./button";
+import Hero from "./Hero";
+import LogoSlide from "./logoslide";
 import Service from "./service";
-import Team from "./Team";
 import Techhnologies from "./Techhnologies";
+import Team from "./Team";
+import Teams from "./Teams";
+import LandingPage from "./LandingPage";
 
 export {
-  // Components related to pages
-  AboutPage,
+  Teams,
   Contact,
   LandingPage,
   Team,
@@ -26,6 +29,5 @@ export {
   LogoSlide,
   Navbar,
   Ourservicebtn,
-  Service,
-  Techhnologies,
+  LandingPage,
 };
