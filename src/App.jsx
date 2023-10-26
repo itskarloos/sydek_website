@@ -6,7 +6,7 @@ import {
   Navbar,
   Team,
   Contact,
-  Service,
+  Services,
   AboutPage,
 } from "./Components";
 
@@ -28,7 +28,7 @@ const App = () => {
           <Route path="/Contact" element={<Contact />} />
           <Route path="/Team" element={<Team />} />
           <Route path="/About" element={<AboutPage />} />
-          <Route path="/Service" element={<Service />} />
+          <Route path="/Services" element={<Services />} />
           <Route path="/" exact element={<LandingPage />} />
         </Routes>
       </Router>
