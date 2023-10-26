@@ -26,7 +26,7 @@ const AboutPage = () => {
                         </p>
                     </div>
                     <div className="MainDescription">
-                        <h3 className="Motto font-manrope font-semibold text-[60px] text-white z-[1]">
+                        <h3 className="Motto font-manrope font-semibold text-white z-[1] xl:text-[20px] ss:text-[50px] text-[40px]">
                             We believe that <span className="text-gradient z-[1]">technology</span> can change the <span className="text-gradient z-[1]">WORLD</span>
                         </h3>
                         <p className="explianation">
@@ -41,7 +41,7 @@ const AboutPage = () => {
                         <img src= {Work} alt="Work Image Syncing" />
                     </div>
                     <div className="MissionContainer">
-                        <div className="MissionContainer">
+                        <div className="">
                             <h1 className="font-manrope font-semibold text-[25px]">
                                 We're on a mission to bring ideas to life.
                             </h1>

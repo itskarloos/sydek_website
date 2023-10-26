@@ -28,6 +28,10 @@
     font-family: 100px;
 }
 
+.Motto h3 {
+    font-size: 60px;
+}
+
 .MainDescription {
     margin: 50px 50px;
 }
@@ -139,4 +143,38 @@
 .ValueCard p {
     margin: 30px auto;
     text-align: center;
+}
+
+/* Responsiveness */
+
+@media (max-width: 1356px ) {
+    .Motto h3 {
+        font-size: 40px;
+    }
+
+    .WorkContainer {
+        flex-direction: column;
+    }
+
+    .MissionContainer {
+        padding: none;
+        margin: 20px auto;
+    }
+
+    .MissionDescription {
+        text-align: start;
+    }
+}
+
+@media (max-width: 1150px) {
+    .ValuesList {
+        flex-direction: column;
+    }
+    
+}
+
+@media (max-width: 500px) {
+    /* .ImgCard {
+        height: 450px;
+    } */
 }
