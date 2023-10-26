@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <nav className="w-full flex py-6 justify-between items-center navbar ">
       <img src={logo} alt="sydek" className="w-[128px] h-[50px]" />
-      <ul className="list-none sm:flex hidden justify-end items-center flex-1 z-[1]">
+      <ul className="list-none sm:flex hidden justify-end items-center flex-1 z-[10]">
         {navLinks.map((nav, index) => (
           <li
             key={nav.id}
@@ -19,7 +19,7 @@ const Navbar = () => {
           </li>
         ))}
       </ul>
-      <div className="sm:hidden flex flex-1 justify-end items-center z-[1]">
+      <div className="sm:hidden flex flex-1 justify-end items-center z-[10]">
         <img
           src={toggle ? close : menu}
           alt="menu"
