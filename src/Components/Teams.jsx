@@ -4,7 +4,7 @@ import "./Team.css";
 
 const Teams = () => {
   return (
-    <section id="home" className={` flex-col ${styles.paddingY}`}>
+    <section className={` flex-col ${styles.paddingY}`}>
       <div
         className={`flex-1 ${styles.flexStart} flex-col xl:px-16 sm:px-16 px-6`}
       >
