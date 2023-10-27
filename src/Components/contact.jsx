@@ -55,7 +55,8 @@ const Contact = () => {
                       className="h-[15px] w-[15px] mt-[4px] mr-[5px]"
                       src={location}
                     ></img>
-                    <p className="image-paragraph">132 Delware, USA</p>
+                    <p className="image-paragraph">16192 Coastal
+Highway, Lewes, Delaware 19958, County of Sussex.</p>
                   </div>
 
                   <div className="flex flex-row m-1">

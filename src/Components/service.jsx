@@ -124,7 +124,7 @@ const Service = () => {
         <div
           className={`flex ${styles.flexStart} flex-row flex-wrap justify-around mt-2 w-[100%]`}
         >
-          <button className="service-btn flex mt-5"> More Services </button>
+          <button className="service-btn flex mt-5"> <a href="./Services">More Services</a>  </button>
         </div>
       </div>
     </section>

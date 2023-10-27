@@ -29,19 +29,15 @@ export const footerLinks = [
     links: [
       {
         name: "About Us",
-        link: "./About",
+        links: "./About",
       },
       {
         name: "Services",
-        link: "/Service",
-      },
-      {
-        name: "Contact",
-        link: "/Contact",
+        links: "./Services",
       },
       {
         name: "Teams",
-        link: "./Team",
+        links: "./Team",
       },
     ],
   },
@@ -50,19 +46,19 @@ export const footerLinks = [
     links: [
       {
         name: "Email",
-        link: "info@sydek.io",
+        links: "https://mail.google.com/mail/",
       },
       {
         name: "Phone",
-        link: "+251 98765432",
+        links: "+251 98765432",
       },
       {
         name: "Address",
-        link: "#",
+        links: "https://www.google.com/maps/place/16192+Coastal+Hwy,+Lewes,+DE+19958,+USA/@38.7646424,-75.214426,17z/data=!3m1!4b1!4m6!3m5!1s0x89b8b90d96ae559b:0xa6cd79715d5b2e23!8m2!3d38.7646382!4d-75.2118511!16s%2Fg%2F11c4pcz5z3?entry=ttu",
       },
       {
         name: "Linkdin",
-        link: "https://www.linkedin.com/company/sydekse",
+        links: "https://www.linkedin.com/company/sydekse",
       },
     ],
   },
