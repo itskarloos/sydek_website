@@ -177,4 +177,17 @@
     /* .ImgCard {
         height: 450px;
     } */
+    .MissionDescription {
+        font-size: 15px;
+    }
+
+    .IconContainer {
+        margin: 10px auto;
+    }
+
+    .IconCard {
+        flex-direction: column;
+        align-items: start;
+        margin: 15px auto;
+    }
 }

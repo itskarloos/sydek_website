@@ -64,6 +64,12 @@ import Commitment from "./CommitmentValues.png";
 import Growth from "./GrowthValues.png";
 import Ownership from "./OwnershipValues.png";
 import Innovation from "./InnovationValues.png";
+import robel from "./Robel.jpg";
+import dani from "./Dani.jpg";
+import abigel from "./Abigel.jpg";
+import setota from "./Setota.jpg";
+import ananya from "./Ananya.png";
+import nahom from "./Nahom.jpg";
 
 export {
   mobile,
@@ -131,5 +137,11 @@ export {
   Ownership,
   Work,
   Mission,
-  Vision
+  Vision,
+  robel,
+  dani,
+  abigel,
+  setota,
+  ananya,
+  nahom
 };

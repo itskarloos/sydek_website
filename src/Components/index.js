@@ -12,6 +12,7 @@ import Service from "./service";
 import Techhnologies from "./Techhnologies";
 import Team from "./Team";
 import Teams from "./Teams";
+import Founders from "./Founders"
 
 export {
   AboutPage,
@@ -28,4 +29,5 @@ export {
   LogoSlide,
   Navbar,
   Ourservicebtn,
+  Founders
 };

@@ -1,4 +1,5 @@
-import {  facebook, instagram, linkedin, twitter,   } from "../assets";
+import {  facebook, instagram, linkedin, twitter, robel, abigel, dani, setota, image, ananya, nahom  } from "../assets";
+
 export const navLinks = [
   {
     id: "Home",
@@ -103,11 +104,11 @@ export const socialMedia = [
     icon: instagram,
     link: "https://www.instagram.com/",
   },
-  // {
-  //   id: "social-media-2",
-  //   icon: facebook,
-  //   link: "https://www.facebook.com/",
-  // },
+  {
+    id: "social-media-2",
+    icon: facebook,
+    link: "https://www.facebook.com/",
+  },
   {
     id: "social-media-3",
     icon: twitter,
@@ -118,5 +119,79 @@ export const socialMedia = [
     icon: linkedin,
     link: "https://www.linkedin.com/company/sydekse",
   },
+];
+
+export const founderInfo = [
+  {
+    id: 1,
+    picture: robel,
+    name: "Robel Benyam",
+    position: "CEO",
+    description: "Setting the company's strategic direction, Ease corporate decisions, Managing the company's resources."
+  },
+  {
+    id: 2,
+    picture: dani,
+    name: "Daniel Solomom",
+    position: "COO",
+    description: "Overseeing Product generation, Marketing, and Compnay Strategy."
+  },
+  {
+    id: 3,
+    picture: setota,
+    name: "Setota Asefa",
+    position: "CTO",
+    description: "Technology infrastructure, Development and Implementation"
+  },
+  {
+    id: 4,
+    picture: abigel,
+    name: "Abigel Zewde",
+    position: "CBO",
+    description: "Business development, Partnerships, and sometimes Product management."
+  },
+];
+
+export const teamInfo = [ 
+  {
+    id: 1,
+    photo: image,
+    name: "Micahel Seyoum",
+    position: "Creative Director",
+    description: "Development of company assets and Brand deferentiation."
+  },
+  {
+    id: 2,
+    photo: ananya,
+    name: "Ananya Fekeremariam",
+    position: "Full-Stack Developer",
+    description: "Building Produccts and Maintenance."
+  },
+  {
+    id: 3,
+    photo: nahom,
+    name: "Nahom Teguade",
+    position: "System Designer",
+    description: "Strategy centric product development."
+  },
+];
+
+export const teamSkill = [
+  {
+    id: 1,
+    skills: "Figma",
+    value: 95,
+  },
+
+  {
+    id: 2,
+    skills: "API Integration", 
+    value: 88,
+  },
+  {
+    id: 3,
+    skills: "DataBase Integration",
+    value: 85,
+  }
 ];
 
