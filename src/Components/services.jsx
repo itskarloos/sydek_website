@@ -219,9 +219,9 @@ const Services = () => {
             </Glow>
           </GlowCapture>
         </div>
-        <div className="flex flex-row justify-between w-[100%] flex-wrap">
+        <div className="flex flex-row justify-between w-[100%] flex-wrap mt-[20px]">
           <div className="service-text">
-            <h1 className="flex-1 font-manrope font-semibold ss:text-[65px] text-[45px] text-white ss:leading-[100px] leading-[60px] z-[1] ">
+            <h1 className="flex-1 font-manrope font-semibold ss:text-[60px] text-[40px] text-white ss:leading-[100px] leading-[60px] z-[1] ">
               Why Us?
             </h1>
           </div>
