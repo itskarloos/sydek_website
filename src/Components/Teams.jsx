@@ -107,21 +107,21 @@ const Teams = () => {
                   <p>94%</p>
                 </div>
                 <div className="progress">
-                  <div className="progress-bar w-94"></div>
+                  <div className="progress-bar w-90"></div>
                 </div>
                 <div className="skill-name">
                   <p>Data Science</p>
                   <p>83%</p>
                 </div>
                 <div className="progress">
-                  <div className="progress-bar w-83"></div>
+                  <div className="progress-bar w-80"></div>
                 </div>
                 <div className="skill-name">
                   <p>Back-End Development</p>
                   <p>76%</p>
                 </div>
                 <div className="progress">
-                  <div className="progress-bar w-76"></div>
+                  <div className="progress-bar w-70"></div>
                 </div>
               </div>
             </div>
@@ -159,21 +159,21 @@ const Teams = () => {
                   <p>97%</p>
                 </div>
                 <div className="progress">
-                  <div className="progress-bar w-97"></div>
+                  <div className="progress-bar w-90"></div>
                 </div>
                 <div className="skill-name">
                   <p>Requirment Research</p>
                   <p>88%</p>
                 </div>
                 <div className="progress">
-                  <div className="progress-bar w-88"></div>
+                  <div className="progress-bar w-80"></div>
                 </div>
                 <div className="skill-name">
                   <p>System Development</p>
                   <p>76%</p>
                 </div>
                 <div className="progress">
-                  <div className="progress-bar w-76"></div>
+                  <div className="progress-bar w-70"></div>
                 </div>
               </div>
             </div>
