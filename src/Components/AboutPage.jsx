@@ -76,8 +76,8 @@ const AboutPage = () => {
                 <div className="TextCard">
                   <h1 className="font-bold text-[25px]">Vision</h1>
                   <p>
-                    SYDEK’s mission is to boldly revolutionize the landscape of
-                    software development
+                    SYDEK’s vision is to stand out and revolutionize the concept
+                    of computational development
                   </p>
                 </div>
               </div>
