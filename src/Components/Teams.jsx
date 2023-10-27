@@ -1,11 +1,10 @@
 import styles from "../style";
 import "./Team.css";
 import { teamInfo, teamSkill } from "../constants";
-import { Fragment } from "react";
+
 
 const Teams = () => {
   return (
-    <Fragment>
       <section id="home" className={` flex-col ${styles.paddingY}`}>
         <div
           className={`flex-1 ${styles.flexStart} flex-col xl:px-16 sm:px-16 px-6`}
@@ -16,6 +15,15 @@ const Teams = () => {
                 Team
               </h1>
             </div>
+      <section className={` flex-col ${styles.paddingY}`}>
+        <div
+        className={`flex-1 ${styles.flexStart} flex-col xl:px-16 sm:px-16 px-6`}
+        >
+        <div className="flex flex-row justify-between w-[100%] flex-wrap">
+          <div className="service-text">
+            <h1 className="flex-1 font-manrope font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100px] leading-[60px] z-[1] ">
+              Team
+            </h1>
           </div>
 
           <p className={`${styles.paragraph} font-thin`}>
@@ -69,9 +77,15 @@ const Teams = () => {
               </div>
             ))}
           </div>
+          
+          </div>
+          </section>
+          </div>
+          </div>
       </section>
-    </Fragment>
+     
   );
+
 };
 
 export default Teams;

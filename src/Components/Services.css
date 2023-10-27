@@ -1,0 +1,29 @@
+.VectorSection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-direction: row;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.VectorContainer {
+  display: flex;
+  flex-direction: column;
+  width: 280px;
+  height: 280px;
+  margin: 10px;
+}
+.VectorImage {
+  height: 100px;
+  width: 100px;
+}
+.VectorHeading {
+  font-size: 23px;
+  font-weight: 400;
+  margin: 5px 0 5px 0;
+}
+.VectorParagraph {
+  font-size: 15px;
+  font-weight: 200;
+}

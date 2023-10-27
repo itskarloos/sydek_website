@@ -70,8 +70,24 @@ import abigel from "./Abigel.jpg";
 import setota from "./Setota.jpg";
 import ananya from "./Ananya.png";
 import nahom from "./Nahom.jpg";
+import Ta from "./ta.png";
+import Ic from "./ic.png";
+import Dm from "./dm.png";
+import Branding from "./Branding.png";
+import Vector1 from "./Vector-1.png";
+import Vector2 from "./Vector-2.png";
+import Vector3 from "./Vector.png";
+import Vector4 from "./Vector3.png";
 
 export {
+  Vector1,
+  Vector2,
+  Vector3,
+  Vector4,
+  Branding,
+  Dm,
+  Ic,
+  Ta,
   mobile,
   webdev,
   saas,

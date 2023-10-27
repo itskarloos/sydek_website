@@ -10,7 +10,7 @@ export const navLinks = [
     title: "About",
   },
   {
-    id: "Service",
+    id: "Services",
     title: "Service",
   },
   {
@@ -20,24 +20,6 @@ export const navLinks = [
   {
     id: "https://www.linkedin.com/company/sydekse",
     title: "LinkedIn",
-  }
-];
-
-export const stats = [
-  {
-    id: "stats-1",
-    title: "User Active",
-    value: "3800+",
-  },
-  {
-    id: "stats-2",
-    title: "Trusted by Company",
-    value: "230+",
-  },
-  {
-    id: "stats-3",
-    title: "Transaction",
-    value: "$230M+",
   },
 ];
 
@@ -61,7 +43,6 @@ export const footerLinks = [
         name: "Teams",
         link: "./Team",
       },
-      
     ],
   },
   {
@@ -83,7 +64,6 @@ export const footerLinks = [
         name: "Linkdin",
         link: "https://www.linkedin.com/company/sydekse",
       },
-      
     ],
   },
   {
@@ -93,7 +73,6 @@ export const footerLinks = [
         name: "Terms of Services",
         link: "#",
       },
-      
     ],
   },
 ];
