@@ -27,6 +27,13 @@ const Contact = () => {
               <div id="contact-image">
                 <img className="logo" src={logo} />
                 <div className="paragraph-container">
+                <div className="flex flex-row m-1">
+                    <img
+                      className="h-[15px] w-[15px] mt-[4px] mr-[5px]"
+                      src={phone}
+                    ></img>
+                    <p className="image-paragraph"> +1 614 400 4200 </p>
+                  </div>
                   <div className="flex flex-row m-1">
                     <img
                       className="h-[15px] w-[15px] mt-[4px] mr-[5px]"

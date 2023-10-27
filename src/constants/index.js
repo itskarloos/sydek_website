@@ -73,7 +73,7 @@ export const footerLinks = [
       },
       {
         name: "Phone",
-        link: "#",
+        link: "+251 98765432",
       },
       {
         name: "Address",
