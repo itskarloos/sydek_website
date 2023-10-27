@@ -103,25 +103,25 @@ const Teams = () => {
               <p>Building Products and Maintenance.</p>
               <div className="team-skill">
                 <div className="skill-name">
-                  <p>Figma</p>
-                  <p>90%</p>
+                  <p>API Integration</p>
+                  <p>94%</p>
                 </div>
                 <div className="progress">
-                  <div className="progress-bar w-90"></div>
+                  <div className="progress-bar w-94"></div>
                 </div>
                 <div className="skill-name">
-                  <p>CSS</p>
-                  <p>80%</p>
+                  <p>Data Science</p>
+                  <p>83%</p>
                 </div>
                 <div className="progress">
-                  <div className="progress-bar w-80"></div>
+                  <div className="progress-bar w-83"></div>
                 </div>
                 <div className="skill-name">
-                  <p>Flutter</p>
-                  <p>70%</p>
+                  <p>Back-End Development</p>
+                  <p>76%</p>
                 </div>
                 <div className="progress">
-                  <div className="progress-bar w-70"></div>
+                  <div className="progress-bar w-76"></div>
                 </div>
               </div>
             </div>
@@ -155,25 +155,25 @@ const Teams = () => {
               <p>Strategy centric product development.</p>
               <div className="team-skill">
                 <div className="skill-name">
-                  <p>Figma</p>
-                  <p>90%</p>
+                  <p>Product Generation</p>
+                  <p>97%</p>
                 </div>
                 <div className="progress">
-                  <div className="progress-bar w-90"></div>
+                  <div className="progress-bar w-97"></div>
                 </div>
                 <div className="skill-name">
-                  <p>CSS</p>
-                  <p>80%</p>
+                  <p>Requirment Research</p>
+                  <p>88%</p>
                 </div>
                 <div className="progress">
-                  <div className="progress-bar w-80"></div>
+                  <div className="progress-bar w-88"></div>
                 </div>
                 <div className="skill-name">
-                  <p>Flutter</p>
-                  <p>70%</p>
+                  <p>System Development</p>
+                  <p>76%</p>
                 </div>
                 <div className="progress">
-                  <div className="progress-bar w-70"></div>
+                  <div className="progress-bar w-76"></div>
                 </div>
               </div>
             </div>
