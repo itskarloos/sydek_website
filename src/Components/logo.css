@@ -8,6 +8,7 @@
 /* Add media queries for responsiveness */
 .carousel-container {
   width: 100%; /* Adjust the width to your preferred size */
+  margin: 30px auto;
   overflow: hidden;
   position: relative;
 }
@@ -16,17 +17,29 @@
   display: flex;
   animation: slide 10s linear infinite;
   animation-timing-function: linear;
+  white-space: nowrap; /* Keep items on a single line */
+  position: relative;
+  width: 300%; /* Set to 3 times the width of the container (adjust as needed) */
+  margin: 0; /* Remove the default margin between items */
+  transition: animation 0.3s; /* Add a transition for the hover effect */
 }
 
 .carousel-item {
-  width: 100%;
+  margin: 0;
+  width: 20%; 
   position: relative;
-  animation: fadeOut 2s 8s both;
+  animation: fadeOut 10s 10s both, fadeIn 10s 20s both; /* Add fadeIn animation for a seamless loop */
+  transition: animation 0.3s; /* Add a transition for the hover effect */
 }
 
 .carousel-item img {
   width: 100px;
   height: auto;
+}
+
+/* Pause the animation on hover */
+.carousel-track:hover {
+  animation-play-state: paused;
 }
 
 @keyframes slide {
@@ -42,8 +55,23 @@
   0% {
     opacity: 1;
   }
-  100% {
+  50% {
     opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }
 
@@ -51,6 +79,10 @@
 @media (max-width: 768px) {
   .carousel-container {
     width: 80%; /* Adjust the width for smaller screens */
+  }
+  .carousel-item img {
+    width: 80px;
+    height: auto;
   }
 }
 
@@ -60,6 +92,7 @@
     width: 90%; /* Further adjust the width for very small screens */
   }
 }
+
 
 .box-container {
   width: 100%;

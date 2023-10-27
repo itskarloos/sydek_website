@@ -1,4 +1,4 @@
-import { ble, post, zenon } from "../assets";
+import { ble, post, zenon, amazon, blu, rehoboth } from "../assets";
 import "./logo.css";
 import React from "react";
 
@@ -18,10 +18,16 @@ const LogoSlide = () => {
           <img src={zenon} alt="Logo 3" />
         </div>
         <div className="carousel-item">
-          <img src={post} alt="Logo 4" />
+          <img src={rehoboth} alt="Logo 4" />
         </div>
         <div className="carousel-item">
-          <img src={zenon} alt="Logo 5" />
+          <img src={post} alt="Logo 5" />
+        </div>
+        <div className="carousel-item">
+          <img src={blu} alt="Logo 5" />
+        </div>
+        <div className="carousel-item">
+          <img src={amazon} alt="Logo 5" />
         </div>
         {/* Add more logo items as needed */}
       </div>

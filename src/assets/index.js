@@ -78,6 +78,9 @@ import Vector1 from "./Vector-1.png";
 import Vector2 from "./Vector-2.png";
 import Vector3 from "./Vector.png";
 import Vector4 from "./Vector3.png";
+import amazon from "./amazon.png";
+import blu from "./Blu.png";
+import rehoboth from "./rehoboth.png";
 
 export {
   Vector1,
@@ -159,5 +162,8 @@ export {
   abigel,
   setota,
   ananya,
-  nahom
+  nahom,
+  amazon,
+  blu,
+  rehoboth
 };
