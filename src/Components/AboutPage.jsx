@@ -73,34 +73,6 @@ const AboutPage = () => {
                     software development
                   </p>
                 </div>
-                <div className="VlauesContainer">
-                    <h1 className="Title font-manrope font-semibold text-[60px] text-white z-[1]">
-                        Our Values
-                    </h1>
-                    <div className="ValuesList">
-                        <div className="ValueCard">
-                            <img src= {Innovation} alt= "Innovation Syncing" />
-                            <h4 className="font-manrope font-semibold text-[25px] text-white z-[1]">Innovation</h4>
-                            <p>We embrace groundbreaking ideas, and turn them into ingenious solutions.</p>
-                        </div>
-                        <div className="ValueCard">
-                            <img src= {Growth} alt= "Growth Syncing" />
-                            <h4 className="font-manrope font-semibold text-[25px] text-white z-[1]">Growth</h4>
-                            <p>We recognize that success lies in adaptability and continuous improvement. </p>
-                        </div>
-                        <div className="ValueCard">
-                            <img src= {Ownership} alt= "Ownership Syncing" />
-                            <h4 className="font-manrope font-semibold text-[25px] text-white z-[1]">Ownership</h4>
-                            <p>It empowers us to shape our destiny and deliver results that make a difference.</p>
-                        </div>
-                        <div className="ValueCard">
-                            <img src= {Commitment} alt= "Team Work Syncing" />
-                            <h4 className="font-manrope font-semibold text-[25px] text-white z-[1]">Commitment</h4>
-                            <p>It's the fuel that powers our aspirations and drives us to achieve the remarkable.</p>
-                        </div>
-                    </div>
-                    
-                </div>
                 <div className="TextCard">
                   <h1 className="font-bold text-[25px]">Vision</h1>
                   <p>
