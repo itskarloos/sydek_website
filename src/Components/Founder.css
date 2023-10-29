@@ -2,7 +2,8 @@
   display: flex;
   flex-wrap: wrap;
   width: 100%;
-  justify-content: space-evenly;
+  position: relative;
+  justify-content: space-around;
   margin-top: 10px;
   margin-bottom: 10px;
 }
