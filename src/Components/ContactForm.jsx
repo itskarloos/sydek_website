@@ -30,12 +30,15 @@ const ContactForm = () => {
       <h2>Contact Us</h2>
       <form ref={form} onSubmit={sendEmail}>
         <label>Name</label>
-        <input type="text" name="user_name" />
+        <input type="text" name="from_name" />
         <label>Email</label>
         <input type="email" name="user_email" />
         <label>Message</label>
         <textarea name="message" />
-        <input type="submit" className="glow-on-hover" value="Send" />
+        <button type="submit" className="glow-on-hover" value="Send">
+          {" "}
+          Submit{" "}
+        </button>
       </form>
     </div>
   );
