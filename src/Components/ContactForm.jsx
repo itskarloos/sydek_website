@@ -1,9 +1,10 @@
-import React, { Component, useRef } from "react";
+import React, { useRef, useState } from "react";
 import "./ContactForm.css";
 import emailjs from "@emailjs/browser";
 
 const ContactForm = () => {
   const form = useRef();
+  const [isEmailSent, setIsEmailSent] = useState(false);
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -18,6 +19,10 @@ const ContactForm = () => {
       .then(
         (result) => {
           console.log(result.text);
+          setIsEmailSent(true); // Set the state to indicate that the email is sent
+          setTimeout(() => {
+            setIsEmailSent(false); // Hide the popup after 3 seconds
+          }, 3000);
         },
         (error) => {
           console.log(error.text);
@@ -40,6 +45,14 @@ const ContactForm = () => {
           Submit{" "}
         </button>
       </form>
+
+      {isEmailSent && (
+        <div className="popup">
+          <div className="popup-inner">
+            <p>Email sent successfully!</p>
+          </div>
+        </div>
+      )}
     </div>
   );
 };
