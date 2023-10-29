@@ -58,3 +58,12 @@
   font-weight: 400;
   line-height: 24px;
 }
+
+@media (max-width: 500px) {
+  .founder {
+    max-width: 200px;
+  }
+  .founder .founder-img img {
+    height: 200px;
+  }
+}

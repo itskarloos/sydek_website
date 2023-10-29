@@ -39,7 +39,7 @@ const Contact = () => {
                       className="h-[15px] w-[15px] mt-[4px] mr-[5px]"
                       src={phone}
                     ></img>
-                    <p className="image-paragraph"> +25198765432 </p>
+                    <p className="image-paragraph"> +251 91 298 3759 </p>
                   </div>
 
                   <div className="flex flex-row m-1">

@@ -28,7 +28,7 @@
   margin: 0;
   width: 20%;
   position: relative;
-  animation: fadeOut 10s 10s both, fadeIn 10s 20s both; /* Add fadeIn animation for a seamless loop */
+  animation: fadeOut 2s 4s both, fadeIn 2s 4s both; /* Add fadeIn animation for a seamless loop */
   transition: animation 0.3s; /* Add a transition for the hover effect */
 }
 
