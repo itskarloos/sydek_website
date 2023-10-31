@@ -19,7 +19,7 @@ import zenon from "./zenon-X.png";
 import svector from "./svector.png";
 import ui from "./ui.png";
 import rectangle from "./Rectangle.png";
-import arrow from "./arrow icon.png";
+import arrow from "./Arrow Icon.png";
 import earth from "./earth.png";
 import globe from "./globe.png";
 import andriod from "./Android OS.png";
