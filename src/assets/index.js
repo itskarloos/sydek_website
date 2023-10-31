@@ -15,7 +15,7 @@ import twitter from "./twitter.svg";
 import image from "./image.jpg";
 import ble from "./ble.png";
 import post from "./post.png";
-import zenon from "./zenon-x.png";
+import zenon from "./zenon-X.png";
 import svector from "./svector.png";
 import ui from "./ui.png";
 import rectangle from "./rectangle.png";
