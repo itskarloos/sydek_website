@@ -18,7 +18,7 @@ import post from "./post.png";
 import zenon from "./zenon-X.png";
 import svector from "./svector.png";
 import ui from "./ui.png";
-import rectangle from "./rectangle.png";
+import rectangle from "./Rectangle.png";
 import arrow from "./arrow icon.png";
 import earth from "./earth.png";
 import globe from "./globe.png";
