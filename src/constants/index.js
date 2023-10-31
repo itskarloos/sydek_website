@@ -14,19 +14,19 @@ import {
 
 export const navLinks = [
   {
-    id: "Home",
+    id: "home",
     title: "Home",
   },
   {
-    id: "About",
+    id: "about",
     title: "About",
   },
   {
-    id: "Services",
+    id: "services",
     title: "Service",
   },
   {
-    id: "Team",
+    id: "team",
     title: "Team",
   },
   {
@@ -41,15 +41,15 @@ export const footerLinks = [
     links: [
       {
         name: "About Us",
-        links: "./About",
+        links: "./about",
       },
       {
         name: "Services",
-        links: "./Services",
+        links: "./services",
       },
       {
         name: "Teams",
-        links: "./Team",
+        links: "./team",
       },
     ],
   },
