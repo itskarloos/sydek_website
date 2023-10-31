@@ -12,7 +12,7 @@ import Service from "./service";
 import Techhnologies from "./Techhnologies";
 import Team from "./Team";
 import Teams from "./Teams";
-import Founders from "./Founders"
+import Founders from "./Founders";
 import Services from "./services";
 
 export {
@@ -31,5 +31,5 @@ export {
   LogoSlide,
   Navbar,
   Ourservicebtn,
-  Founders
+  Founders,
 };
