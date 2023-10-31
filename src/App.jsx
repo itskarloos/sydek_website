@@ -24,11 +24,11 @@ const App = () => {
       <Router>
         <Switch>
           {/* Define routes using Route components with lowercase paths */}
-          <Route path="/Home" exact element={<LandingPage />} />
-          <Route path="/Contact" element={<Contact />} />
-          <Route path="/Team" element={<Team />} />
-          <Route path="/About" element={<AboutPage />} />
-          <Route path="/Services" element={<Services />} />
+          <Route path="/home" exact element={<LandingPage />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/team" element={<Team />} />
+          <Route path="/about" element={<AboutPage />} />
+          <Route path="/services" element={<Services />} />
           <Route path="/" exact element={<LandingPage />} />
         </Switch>
       </Router>
