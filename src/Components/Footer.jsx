@@ -1,6 +1,7 @@
 import styles from "../style";
 import { logo } from "../assets";
 import { footerLinks, socialMedia } from "../constants";
+import { Link } from "react-router-dom";
 
 const Footer = () => (
   <section
@@ -35,7 +36,7 @@ const Footer = () => (
                     index !== footerlink.links.length - 1 ? "mb-4" : "mb-0"
                   }`}
                 >
-                  <a href={link.links}>{link.name}</a> 
+                  <Link to={link.links}>{link.name}</Link> 
                 </li>
               ))}
             </ul>

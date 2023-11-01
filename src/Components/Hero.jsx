@@ -5,6 +5,7 @@ import Button from "./button";
 import Button2 from "./button2";
 import Logoslide from "./logoslide";
 
+
 const Hero = () => (
   <section className={`flex md:flex-row flex-col ${styles.paddingY}`}>
     <div

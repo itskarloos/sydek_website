@@ -1,6 +1,8 @@
 import styles from "../style";
 import "./Service.css";
 import "./logo.css";
+import { Link } from "react-router-dom";
+
 
 import { saas, mobile, webdev, ui, rectangle, arrow } from "../assets";
 import React, { useState, useEffect, useRef } from "react";
@@ -124,7 +126,7 @@ const Service = () => {
         <div
           className={`flex ${styles.flexStart} flex-row flex-wrap justify-around mt-2 w-[100%]`}
         >
-          <button className="service-btn flex mt-5"> <a href="./Services">More Services</a>  </button>
+          <button className="service-btn flex mt-5"> <Link to="./Services">More Services</Link>  </button>
         </div>
       </div>
     </section>

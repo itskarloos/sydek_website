@@ -1,5 +1,5 @@
 import styles from "./style";
-import { BrowserRouter as Router, Route, Switch} from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes} from "react-router-dom";
 import {
   LandingPage,
   Footer,
@@ -22,7 +22,7 @@ const App = () => {
 
       {/* Set up routing with React Router */}
       <Router>
-        <Switch>
+        <Routes>
           {/* Define routes using Route components with lowercase paths */}
           <Route path="/home" exact element={<LandingPage />} />
           <Route path="/contact" element={<Contact />} />
@@ -30,7 +30,7 @@ const App = () => {
           <Route path="/about" element={<AboutPage />} />
           <Route path="/services" element={<Services />} />
           <Route path="/" exact element={<LandingPage />} />
-        </Switch>
+        </Routes>
       </Router>
 
       {/* Render the Footer component */}

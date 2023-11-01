@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { close, logo, menu } from "../assets";
 import { navLinks } from "../constants";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [toggle, settoggle] = useState(false);
@@ -15,7 +16,7 @@ const Navbar = () => {
               index === navLinks.length - 1 ? "mr-0" : "mr-10"
             } text-white `}
           >
-            <a href={`${nav.id}`}>{nav.title}</a>
+            <Link to={`${nav.id}`}>{nav.title}</Link>
           </li>
         ))}
       </ul>
@@ -39,7 +40,7 @@ const Navbar = () => {
                   index === navLinks.length - 1 ? "mr-0" : "mb-4"
                 } text-white `}
               >
-                <a href={`${nav.id}`}>{nav.title}</a>
+                <Link to={`${nav.id}`}>{nav.title}</Link>
               </li>
             ))}
           </ul>
