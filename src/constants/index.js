@@ -138,7 +138,7 @@ export const founderInfo = [
     name: "Abigel Zewde",
     position: "CBO",
     description:
-      "Business development, Partnerships, and sometimes Product management.",
+      "Business development, Partnerships, and Product management.",
   },
 ];
 

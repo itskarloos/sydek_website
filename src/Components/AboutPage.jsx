@@ -2,6 +2,7 @@ import { Fragment } from "react";
 import { Contact } from "./";
 import {
   Growth,
+  Vision,
   Innovation,
   Ownership,
   Work,
@@ -71,6 +72,9 @@ const AboutPage = () => {
                     SYDEK’s mission is to boldly revolutionize the landscape of
                     software development
                   </p>
+                </div>
+                <div className="MImgCard">
+                  <img src={Vision} alt="" />
                 </div>
                 <div className="TextCard">
                   <h1 className="font-bold text-[25px]">Vision</h1>
