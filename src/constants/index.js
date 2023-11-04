@@ -18,16 +18,16 @@ export const navLinks = [
     title: "Home",
   },
   {
-    id: "About",
-    title: "about",
+    id: "about",
+    title: "About",
   },
   {
-    id: "Services",
-    title: "service",
+    id: "services",
+    title: "Services",
   },
   {
-    id: "Team",
-    title: "team",
+    id: "team",
+    title: "Team",
   },
   // {
   //   id: "https://www.linkedin.com/company/sydekse",
