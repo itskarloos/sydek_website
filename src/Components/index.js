@@ -14,6 +14,7 @@ import Team from "./Team";
 import Teams from "./Teams";
 import Founders from "./Founders";
 import Services from "./services";
+import ErrorBoundary from "./ErrorBoundary";
 
 export {
   Services,
@@ -32,4 +33,5 @@ export {
   Navbar,
   Ourservicebtn,
   Founders,
+  ErrorBoundary,
 };

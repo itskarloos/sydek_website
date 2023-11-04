@@ -18,21 +18,21 @@ export const navLinks = [
     title: "Home",
   },
   {
-    id: "about",
-    title: "About",
+    id: "About",
+    title: "about",
   },
   {
-    id: "services",
-    title: "Service",
+    id: "Services",
+    title: "service",
   },
   {
-    id: "team",
-    title: "Team",
+    id: "Team",
+    title: "team",
   },
-  {
-    id: "https://www.linkedin.com/company/sydekse",
-    title: "LinkedIn",
-  },
+  // {
+  //   id: "https://www.linkedin.com/company/sydekse",
+  //   title: "LinkedIn",
+  // },
 ];
 
 export const footerLinks = [

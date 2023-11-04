@@ -1,7 +1,5 @@
 // Import necessary styles and components
 import styles from "../style";
-import { useEffect, useRef } from "react";
-import { motion, useInView, useAnimation } from "framer-motion";
 import { Contact, Hero, Techhnologies, Service, Box } from "./";
 
 const LandingPage = () => {

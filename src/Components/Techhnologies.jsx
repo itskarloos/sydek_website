@@ -1,4 +1,3 @@
-import React from "react";
 import styles from "../style";
 import * as images from "../assets";
 import "./Technologies.css"; // Import a CSS file for styles

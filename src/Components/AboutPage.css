@@ -2,10 +2,10 @@
 
 /* Main Container */
 .AboutContainer {
-  margin: auto;
-  padding: 10px;
+  margin: 0;
+  padding: 45px;
   box-sizing: border-box;
-  width: 100%;
+  max-width: 100%;
 }
 
 /* Hero Section */

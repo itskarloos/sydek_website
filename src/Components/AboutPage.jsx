@@ -6,7 +6,6 @@ import {
   Ownership,
   Work,
   Mission,
-  Vision,
   Commitment,
 } from "../assets";
 import "./AboutPage.css";

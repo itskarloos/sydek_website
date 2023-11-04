@@ -8,8 +8,6 @@ import {
   mobile,
   webdev,
   ui,
-  rectangle,
-  arrow,
   Ta,
   Ic,
   Dm,
@@ -19,13 +17,13 @@ import {
   Vector3,
   Vector4,
 } from "../assets";
-import React, { useState, useEffect, useRef } from "react";
+import { useState, useEffect } from "react";
 
-import { motion, useInView, useAnimation } from "framer-motion";
+
 import { GlowCapture, Glow } from "@codaworks/react-glow";
 
 const Services = () => {
-  const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
+  const [setMousePosition] = useState({ x: 0, y: 0 });
 
   useEffect(() => {
     const handleMouseMove = (e) => {

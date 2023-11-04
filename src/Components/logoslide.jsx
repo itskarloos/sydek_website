@@ -1,6 +1,6 @@
 import { ble, post, zenon, amazon, blu, rehoboth } from "../assets";
 import "./logo.css";
-import React from "react";
+
 
 // Import your CSS file
 

@@ -1,4 +1,3 @@
-import React from "react";
 import styles from "../style";
 import { discount } from "../assets";
 import Button from "./button";

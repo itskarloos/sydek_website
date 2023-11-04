@@ -1,6 +1,5 @@
 import ContactForm from "./ContactForm";
 import { location, logo, mail, phone } from "../assets";
-
 import styles from "../style";
 import "./Contact.css";
 
