@@ -3,7 +3,6 @@ import { close, logo, menu } from "../assets";
 import { navLinks } from "../constants";
 import { Link } from "react-router-dom";
 import ErrorBoundary from "./ErrorBoundary";
-import { BrowserRouter as Router } from "react-router-dom";
 
 const Navbar = () => {
   const [toggle, settoggle] = useState(false);
