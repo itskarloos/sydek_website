@@ -124,16 +124,16 @@ export const teamInfo = [
   {
     id: 1,
     photo: image,
-    name: "Micahel Seyoum",
+    name: "Michael Seyoum",
     position: "Creative Director",
     description: "Development of company assets and Brand deferentiation.",
   },
   {
     id: 2,
-    photo: ananya,
-    name: "Ananya Fekeremariam",
-    position: "Full-Stack Developer",
-    description: "Building Products and Maintenance.",
+    photo: peter,
+    name: "Petros Woldu",
+    position: "DevOps",
+    description: "Ai and Machine Learning",
   },
   {
     id: 3,
