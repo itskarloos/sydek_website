@@ -1,5 +1,6 @@
-import styles from "./style";
+import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import styles from "./style";
 import {
   LandingPage,
   Footer,
@@ -9,41 +10,50 @@ import {
   Services,
   AboutPage,
 } from "./Components";
-import { Fragment } from "react";
+
+const routes = [
+  { path: "/", element: <LandingPage /> },
+  { path: "/home", element: <LandingPage /> },
+  { path: "/contact", element: <Contact /> },
+  { path: "/team", element: <Team /> },
+  { path: "/about", element: <AboutPage /> },
+  { path: "/services", element: <Services /> },
+];
 
 const App = () => {
   return (
-
-    <Fragment>
+    <Router>
       <div className="bg-primary w-full overflow-hidden">
-        <Router>
-          {/* Render Navbar component */}
-          <div className={`${styles.paddingX} ${styles.flexCenter} `}>
-            <div className={`${styles.boxWidth}`}>
-              <Navbar />
-            </div>
-          </div>
-
-          {/* Set up routing with React Router */}
-          
-            <Routes>
-              {/* Define routes using Route components with lowercase paths */}
-              <Route path="/" exact element={<LandingPage />} />
-              <Route path="/home" element={<LandingPage />} />
-              <Route path="/contact" element={<Contact />} />
-              <Route path="/team" element={<Team />} />
-              <Route path="/about" element={<AboutPage />} />
-              <Route path="/services" element={<Services />} />
-            </Routes>
-        
-          {/* Render the Footer component */}
-          <div className="footerContainer">
-            <Footer />
-          </div>
-        </Router>
+        <NavbarWrapper />
+        <main>
+          <Routes>
+            {routes.map((route) => (
+              <Route
+                key={route.path}
+                path={route.path}
+                element={route.element}
+              />
+            ))}
+          </Routes>
+        </main>
+        <FooterWrapper />
       </div>
-    </Fragment>
+    </Router>
   );
 };
+
+const NavbarWrapper = () => (
+  <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+    <div className={`${styles.boxWidth}`}>
+      <Navbar />
+    </div>
+  </div>
+);
+
+const FooterWrapper = () => (
+  <div className="footerContainer">
+    <Footer />
+  </div>
+);
 
 export default App;

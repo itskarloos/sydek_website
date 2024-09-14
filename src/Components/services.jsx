@@ -19,7 +19,6 @@ import {
 } from "../assets";
 import { useState, useEffect } from "react";
 
-
 import { GlowCapture, Glow } from "@codaworks/react-glow";
 
 const Services = () => {

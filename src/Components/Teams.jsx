@@ -1,4 +1,4 @@
-import { image, ananya, nahom } from "../assets";
+import { image, ananya, nahom, peter } from "../assets";
 import styles from "../style";
 import "./Team.css";
 
@@ -47,29 +47,29 @@ const Teams = () => {
             </div>
             <div className="team-content">
               <h2>Michael Seyoum</h2>
-              <h3>Creative Director</h3>
-              <p>Development of company assets and Brand deferentiation.</p>
+              <h3>DevOps</h3>
+              <p>Full Stack Development & Testing</p>
               <div className="team-skill">
                 <div className="skill-name">
-                  <p>Figma</p>
-                  <p>90%</p>
+                  <p>Python</p>
+                  <p>70%</p>
                 </div>
                 <div className="progress">
-                  <div className="progress-bar w-90"></div>
+                  <div className="progress-bar w-70"></div>
                 </div>
                 <div className="skill-name">
-                  <p>CSS</p>
+                  <p>Next.js</p>
                   <p>80%</p>
                 </div>
                 <div className="progress">
                   <div className="progress-bar w-80"></div>
                 </div>
                 <div className="skill-name">
-                  <p>Flutter</p>
-                  <p>70%</p>
+                  <p>MongoDB</p>
+                  <p>80%</p>
                 </div>
                 <div className="progress">
-                  <div className="progress-bar w-70"></div>
+                  <div className="progress-bar w-80"></div>
                 </div>
               </div>
             </div>
@@ -78,7 +78,7 @@ const Teams = () => {
         <div className="team-container">
           <div className="team">
             <div className="team-img">
-              <img src={ananya} alt="Team Image" />
+              <img src={peter} alt="Team Image" />
               <div className="team-social">
                 <a className="social-tw" href="">
                   <i className="fab fa-twitter"></i>
@@ -98,30 +98,30 @@ const Teams = () => {
               </div>
             </div>
             <div className="team-content">
-              <h2>Ananya F/mariam</h2>
-              <h3>Full-Stack Developer</h3>
-              <p>Building Products and Maintenance.</p>
+              <h2>Petros woldu</h2>
+              <h3>DevOps</h3>
+              <p>Ai & Machine Learning</p>
               <div className="team-skill">
                 <div className="skill-name">
-                  <p>API Integration</p>
+                  <p>Full-Stack Development</p>
                   <p>90%</p>
                 </div>
                 <div className="progress">
                   <div className="progress-bar w-90"></div>
                 </div>
                 <div className="skill-name">
-                  <p>Data Science</p>
-                  <p>80%</p>
+                  <p>AI & Automation</p>
+                  <p>90%</p>
                 </div>
                 <div className="progress">
-                  <div className="progress-bar w-80"></div>
+                  <div className="progress-bar w-90"></div>
                 </div>
                 <div className="skill-name">
-                  <p>Back-End Development</p>
-                  <p>70%</p>
+                  <p>Web Scraping & Data Processing</p>
+                  <p>90%</p>
                 </div>
                 <div className="progress">
-                  <div className="progress-bar w-70"></div>
+                  <div className="progress-bar w-90"></div>
                 </div>
               </div>
             </div>

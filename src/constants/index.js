@@ -66,7 +66,8 @@ export const footerLinks = [
       },
       {
         name: "Address",
-        links: "https://www.google.com/maps/place/16192+Coastal+Hwy,+Lewes,+DE+19958,+USA/@38.7646424,-75.214426,17z/data=!3m1!4b1!4m6!3m5!1s0x89b8b90d96ae559b:0xa6cd79715d5b2e23!8m2!3d38.7646382!4d-75.2118511!16s%2Fg%2F11c4pcz5z3?entry=ttu",
+        links:
+          "https://www.google.com/maps/place/16192+Coastal+Hwy,+Lewes,+DE+19958,+USA/@38.7646424,-75.214426,17z/data=!3m1!4b1!4m6!3m5!1s0x89b8b90d96ae559b:0xa6cd79715d5b2e23!8m2!3d38.7646382!4d-75.2118511!16s%2Fg%2F11c4pcz5z3?entry=ttu",
       },
       {
         name: "Linkdin",
@@ -110,35 +111,12 @@ export const socialMedia = [
 
 export const founderInfo = [
   {
-    id: 1,
-    picture: robel,
-    name: "Robel Benyam",
-    position: "CEO",
-    description:
-      "Setting the company's strategic direction, Ease corporate decisions, Managing the company's resources.",
-  },
-  {
     id: 2,
     picture: dani,
     name: "Daniel Solomom",
     position: "COO",
     description:
       "Overseeing Product generation, Marketing, and Compnay Strategy.",
-  },
-  {
-    id: 3,
-    picture: setota,
-    name: "Setota Asefa",
-    position: "CTO",
-    description: "Technology infrastructure, Development and Implementation",
-  },
-  {
-    id: 4,
-    picture: abigel,
-    name: "Abigel Zewde",
-    position: "CBO",
-    description:
-      "Business development, Partnerships, and Product management.",
   },
 ];
 

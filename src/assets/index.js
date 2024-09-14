@@ -81,8 +81,10 @@ import Vector4 from "./Vector3.png";
 import amazon from "./amazon.png";
 import blu from "./Blu.png";
 import rehoboth from "./rehoboth.png";
+import peter from "./peter.jpg";
 
 export {
+  peter,
   Vector1,
   Vector2,
   Vector3,
