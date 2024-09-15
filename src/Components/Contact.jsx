@@ -26,19 +26,19 @@ const Contact = () => {
               <div id="contact-image">
                 <img className="logo" src={logo} />
                 <div className="paragraph-container">
-                <div className="flex flex-row m-1">
+                  <div className="flex flex-row m-1">
                     <img
                       className="h-[15px] w-[15px] mt-[4px] mr-[5px]"
                       src={phone}
                     ></img>
-                    <p className="image-paragraph"> +1 614 400 4200 </p>
+                    <p className="image-paragraph"> +251 712785587 </p>
                   </div>
                   <div className="flex flex-row m-1">
                     <img
                       className="h-[15px] w-[15px] mt-[4px] mr-[5px]"
                       src={phone}
                     ></img>
-                    <p className="image-paragraph"> +251 91 298 3759 </p>
+                    <p className="image-paragraph"> +251 912983759 </p>
                   </div>
 
                   <div className="flex flex-row m-1">
@@ -46,7 +46,7 @@ const Contact = () => {
                       className="h-[15px] w-[15px] mt-[4px] mr-[5px]"
                       src={mail}
                     ></img>
-                    <p className="image-paragraph"> info@sydek.io </p>
+                    <p className="image-paragraph"> sydek.io@gmail.com </p>
                   </div>
 
                   <div className="flex flex-row m-1">
@@ -54,8 +54,6 @@ const Contact = () => {
                       className="h-[15px] w-[15px] mt-[4px] mr-[5px]"
                       src={location}
                     ></img>
-                    <p className="image-paragraph">16192 Coastal
-Highway, Lewes, Delaware 19958, County of Sussex.</p>
                   </div>
 
                   <div className="flex flex-row m-1">
