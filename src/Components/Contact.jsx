@@ -50,10 +50,7 @@ const Contact = () => {
                   </div>
 
                   <div className="flex flex-row m-1">
-                    <img
-                      className="h-[15px] w-[15px] mt-[4px] mr-[5px]"
-                      src={location}
-                    ></img>
+                   
                   </div>
 
                   <div className="flex flex-row m-1">
