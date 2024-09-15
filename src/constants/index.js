@@ -10,6 +10,8 @@ import {
   image,
   ananya,
   nahom,
+  peter,
+  michael,
 } from "../assets";
 
 export const navLinks = [
@@ -111,12 +113,26 @@ export const socialMedia = [
 
 export const founderInfo = [
   {
-    id: 2,
+    id: 1,
     picture: dani,
     name: "Daniel Solomom",
-    position: "COO",
+    position: "CEO",
+    description: "A visionary leader driving innovation and market growth.",
+  },
+  {
+    id: 2,
+    picture: peter,
+    name: "Petros Woldu",
+    position: "CTO",
     description:
-      "Overseeing Product generation, Marketing, and Compnay Strategy.",
+      "A tech expert leading innovation and overseeing all technical development.",
+  },
+  {
+    id: 3,
+    picture: michael,
+    name: "Michael Seyoum",
+    position: "Technical Lead",
+    description: "A technical lead with a passion for innovation.",
   },
 ];
 

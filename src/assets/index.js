@@ -82,9 +82,10 @@ import amazon from "./amazon.png";
 import blu from "./Blu.png";
 import rehoboth from "./rehoboth.png";
 import peter from "./peter.jpg";
-
+import michael from "./Michael.jpeg";
 export {
   peter,
+  michael,
   Vector1,
   Vector2,
   Vector3,
