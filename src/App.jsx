@@ -20,6 +20,8 @@ const routes = [
   { path: "/services", element: <Services /> },
 ];
 
+// TODO: Add a loading screen
+
 const App = () => {
   return (
     <Router>
