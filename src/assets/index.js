@@ -83,6 +83,9 @@ import blu from "./Blu.png";
 import rehoboth from "./rehoboth.png";
 import peter from "./peter.jpg";
 import michael from "./Michael.jpeg";
+import nahomTwo from "./nahom.jpg";
+import zapy from "./zapy.jpg";
+
 export {
   peter,
   michael,
@@ -168,5 +171,7 @@ export {
   nahom,
   amazon,
   blu,
-  rehoboth
+  rehoboth,
+  nahomTwo,
+  zapy,
 };
