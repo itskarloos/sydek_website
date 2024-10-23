@@ -3,13 +3,10 @@ import {
   instagram,
   linkedin,
   twitter,
-  robel,
-  abigel,
   dani,
-  setota,
   image,
   ananya,
-  nahom,
+  nahomTwo,
   peter,
   michael,
 } from "../assets";
@@ -121,8 +118,8 @@ export const founderInfo = [
   },
   {
     id: 2,
-    picture: peter,
-    name: "Petros Woldu",
+    picture: nahomTwo,
+    name: "Nahom Tegaude",
     position: "CTO",
     description:
       "A tech expert leading innovation and overseeing all technical development.",
@@ -131,7 +128,7 @@ export const founderInfo = [
     id: 3,
     picture: michael,
     name: "Michael Seyoum",
-    position: "Technical Lead",
+    position: "COO",
     description: "A technical lead with a passion for innovation.",
   },
 ];
@@ -141,21 +138,22 @@ export const teamInfo = [
     id: 1,
     photo: image,
     name: "Michael Seyoum",
-    position: "Creative Director",
-    description: "Development of company assets and Brand deferentiation.",
+    position: "COO and Lead DevOps Engineer",
+    description:
+      "Development and Managment of company assets and Brand deferentiation.",
   },
   {
     id: 2,
     photo: peter,
     name: "Petros Woldu",
-    position: "DevOps",
-    description: "Ai and Machine Learning",
+    position: "Data Scientist",
+    description: "AI and Machine Learning",
   },
   {
     id: 3,
-    photo: nahom,
+    photo: nahomTwo,
     name: "Nahom Teguade",
-    position: "System Designer",
+    position: "CTO and Prodcut Manager",
     description: "Strategy centric product development.",
   },
 ];

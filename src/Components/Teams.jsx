@@ -1,4 +1,4 @@
-import { image, ananya, nahom, peter } from "../assets";
+import { image, zapy, nahom, peter } from "../assets";
 import styles from "../style";
 import "./Team.css";
 
@@ -47,7 +47,7 @@ const Teams = () => {
             </div>
             <div className="team-content">
               <h2>Michael Seyoum</h2>
-              <h3>DevOps</h3>
+              <h3>COO and Product Manager</h3>
               <p>Full Stack Development & Testing</p>
               <div className="team-skill">
                 <div className="skill-name">
@@ -99,8 +99,8 @@ const Teams = () => {
             </div>
             <div className="team-content">
               <h2>Petros woldu</h2>
-              <h3>DevOps</h3>
-              <p>Ai & Machine Learning</p>
+              <h3>DevOps Engineer</h3>
+              <p>AI & Machine Learning</p>
               <div className="team-skill">
                 <div className="skill-name">
                   <p>Full-Stack Development</p>
@@ -151,7 +151,7 @@ const Teams = () => {
             </div>
             <div className="team-content">
               <h2>Nahom Teguade</h2>
-              <h3>System Designer</h3>
+              <h3>CTO and System Designer</h3>
               <p>Strategy centric product development.</p>
               <div className="team-skill">
                 <div className="skill-name">
@@ -170,10 +170,62 @@ const Teams = () => {
                 </div>
                 <div className="skill-name">
                   <p>System Development</p>
+                  <p>90%</p>
+                </div>
+                <div className="progress">
+                  <div className="progress-bar w-90"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="team-container">
+          <div className="team">
+            <div className="team-img">
+              <img src={zapy} alt="Team Image" />
+              <div className="team-social">
+                <a className="social-tw" href="">
+                  <i className="fab fa-twitter"></i>
+                </a>
+                <a className="social-fb" href="">
+                  <i className="fab fa-facebook-f"></i>
+                </a>
+                <a className="social-li" href="">
+                  <i className="fab fa-linkedin-in"></i>
+                </a>
+                <a className="social-in" href="">
+                  <i className="fab fa-instagram"></i>
+                </a>
+                <a className="social-yt" href="">
+                  <i className="fab fa-youtube"></i>
+                </a>
+              </div>
+            </div>
+            <div className="team-content">
+              <h2>Zeammanuel Fetene</h2>
+              <h3>Front-End Engineer</h3>
+              <p>UI/UX and Product Generation</p>
+              <div className="team-skill">
+                <div className="skill-name">
+                  <p>Front-End Development</p>
+                  <p>90%</p>
+                </div>
+                <div className="progress">
+                  <div className="progress-bar w-90"></div>
+                </div>
+                <div className="skill-name">
+                  <p>Shadcin</p>
                   <p>70%</p>
                 </div>
                 <div className="progress">
                   <div className="progress-bar w-70"></div>
+                </div>
+                <div className="skill-name">
+                  <p>Modular CSS</p>
+                  <p>80%</p>
+                </div>
+                <div className="progress">
+                  <div className="progress-bar w-80"></div>
                 </div>
               </div>
             </div>
