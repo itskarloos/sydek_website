@@ -85,6 +85,10 @@ import peter from "./peter.jpg";
 import michael from "./Michael.jpeg";
 import nahomTwo from "./nahom.jpg";
 import zapy from "./zapy.jpg";
+import om from "./omLogo.png";
+import diplomat from "./Diplomat Corner.png";
+import googleLogo from "./Google logo icon.png";
+import esperu from "./esperu.jpg";
 
 export {
   peter,
@@ -174,4 +178,8 @@ export {
   rehoboth,
   nahomTwo,
   zapy,
+  om,
+  diplomat,
+  googleLogo,
+  esperu,
 };
