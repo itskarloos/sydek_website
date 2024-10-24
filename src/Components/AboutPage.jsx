@@ -134,7 +134,7 @@ const AboutPage = () => {
             </div>
           </div>
         </div>
-        <div className="ContactSection">
+        <div id="contact" className="ContactSection">
           <Contact />
         </div>
       </section>
