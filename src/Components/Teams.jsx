@@ -1,4 +1,4 @@
-import { image, zapy, nahom, peter } from "../assets";
+import { image, zapy, nahom, peter, esperu } from "../assets";
 import styles from "../style";
 import "./Team.css";
 
@@ -6,7 +6,7 @@ const Teams = () => {
   return (
     <section className={` flex-col ${styles.paddingY}`}>
       <div
-        className={`flex-1 ${styles.flexStart} flex-col xl:px-16 sm:px-16 px-6`}
+        className={`flex-1 ${styles.flexStart}  flex-col xl:px-16 sm:px-16 px-6`}
       >
         <div className="flex flex-row justify-between w-[100%] flex-wrap">
           <div className="service-text">
@@ -22,7 +22,7 @@ const Teams = () => {
           </p>
         </div>
       </div>
-      <div className="flex flex-row justify-around flex-wrap mt-[20px]">
+      <div className="flex md:ml-6 w-[90%] flex-row justify-around flex-wrap mt-[20px]">
         <div className="team-container">
           <div className="team">
             <div className="team-img">
@@ -75,7 +75,7 @@ const Teams = () => {
             </div>
           </div>
         </div>
-        <div className="team-container">
+        {/* <div className="team-container">
           <div className="team">
             <div className="team-img">
               <img src={peter} alt="Team Image" />
@@ -126,7 +126,7 @@ const Teams = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         <div className="team-container">
           <div className="team">
             <div className="team-img">
@@ -222,6 +222,58 @@ const Teams = () => {
                 </div>
                 <div className="skill-name">
                   <p>Modular CSS</p>
+                  <p>80%</p>
+                </div>
+                <div className="progress">
+                  <div className="progress-bar w-80"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="team-container">
+          <div className="team">
+            <div className="team-img">
+              <img src={esperu} alt="Team Image" />
+              <div className="team-social">
+                <a className="social-tw" href="">
+                  <i className="fab fa-twitter"></i>
+                </a>
+                <a className="social-fb" href="">
+                  <i className="fab fa-facebook-f"></i>
+                </a>
+                <a className="social-li" href="">
+                  <i className="fab fa-linkedin-in"></i>
+                </a>
+                <a className="social-in" href="">
+                  <i className="fab fa-instagram"></i>
+                </a>
+                <a className="social-yt" href="">
+                  <i className="fab fa-youtube"></i>
+                </a>
+              </div>
+            </div>
+            <div className="team-content">
+              <h2>Esperansa Dereje</h2>
+              <h3>Data Analyst</h3>
+              <p>Genrating and Visualizing Data Modles</p>
+              <div className="team-skill">
+                <div className="skill-name">
+                  <p>Mathematical Analysis</p>
+                  <p>90%</p>
+                </div>
+                <div className="progress">
+                  <div className="progress-bar w-90"></div>
+                </div>
+                <div className="skill-name">
+                  <p>Financial Reporting:</p>
+                  <p>80%</p>
+                </div>
+                <div className="progress">
+                  <div className="progress-bar w-80"></div>
+                </div>
+                <div className="skill-name">
+                  <p>Data Visualization</p>
                   <p>80%</p>
                 </div>
                 <div className="progress">
