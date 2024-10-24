@@ -4,7 +4,6 @@ import Button from "./button";
 import Button2 from "./button2";
 import Logoslide from "./logoslide";
 
-
 const Hero = () => (
   <section className={`flex md:flex-row flex-col ${styles.paddingY}`}>
     <div
@@ -42,7 +41,7 @@ const Hero = () => (
       {/* Trusted By */}
       <div className="flex flex-col w-full mt-[90px] sm:[50px]">
         <div className="flex flex-row justify-around align-middle w-full ">
-          <p className={`${styles.paragraph} font-thin text-white`}>
+          <p className={`${styles.paragraph}  mb-5 font-thin text-white`}>
             Trusted By
           </p>
         </div>
