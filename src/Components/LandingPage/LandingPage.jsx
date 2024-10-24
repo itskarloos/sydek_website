@@ -1,12 +1,7 @@
 import styles from "./logo.css";
 import { useEffect, useRef } from "react";
 import { motion, useInView, useAnimation } from "framer-motion";
-import {
-  Clients,
-  Testimonials,
-  Hero,
-  Techhnologies,
-} from "./Body/Technologies";
+import { Hero, Techhnologies } from "./Body/Technologies";
 import Box from "./Header/Box/Box";
 import { Contact } from "./Components/Contact Page";
 
