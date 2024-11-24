@@ -38,6 +38,8 @@ const ContactForm = () => {
         <input type="text" name="from_name" />
         <label>Email</label>
         <input type="email" name="user_email" />
+        <label>Gmail(Personal gmail)</label>
+        <input type="email" name="user_gmail" />
         <label>Message</label>
         <textarea name="message" />
         <button type="submit" className="glow-on-hover" value="Send">
