@@ -26,9 +26,7 @@ const LogoSlide = () => {
         <div className="carousel-item">
           <img src={zenon} alt="Logo 3" />
         </div>
-        <div className="carousel-item">
-          <img src={rehoboth} alt="Logo 4" />
-        </div>
+       
         <div className="carousel-item">
           <img src={post} alt="Logo 5" />
         </div>
@@ -44,9 +42,7 @@ const LogoSlide = () => {
         <div className="carousel-item">
           <img src={googleLogo} alt="Logo 6" />
         </div>
-        <div className="carousel-item">
-          <img src={diplomat} alt="Logo 6" />
-        </div>
+        
       </div>
     </div>
   );
